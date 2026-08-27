@@ -1,0 +1,1206 @@
+# CSS — FLEXBOX BÁSICO
+
+## 📚 Teoria + Mapa Visual + Exercícios + Cronograma
+
+---
+
+# 🎯 Objetivo da aula
+
+Aprender a entender o Flexbox visualmente, sem depender apenas de decorar nomes de propriedades.
+
+A regra principal será:
+
+> **Primeiro descubra o Main Axis. Depois escolha a propriedade.**
+
+---
+
+# 🧠 1. O que é Flexbox?
+
+Flexbox é um sistema de layout do CSS usado para organizar elementos dentro de um container.
+
+Temos:
+
+```text
+CONTAINER
+    │
+    ├── ITEM 1
+    ├── ITEM 2
+    └── ITEM 3
+```
+
+O elemento com:
+
+```css
+.container {
+  display: flex;
+}
+```
+
+é o **Flex Container**.
+
+Os filhos diretos são os **Flex Items**.
+
+---
+
+# 🧭 2. Main Axis e Cross Axis
+
+Antes de usar qualquer propriedade, descubra:
+
+> **Qual é o Main Axis?**
+
+Isso depende do `flex-direction`.
+
+---
+
+## `flex-direction: row`
+
+```css
+.container {
+  display: flex;
+  flex-direction: row;
+}
+```
+
+Visualmente:
+
+```text
+┌─────────────────────────────────────────┐
+│                                         │
+│ [ 1 ]  [ 2 ]  [ 3 ]                    │
+│   →      →      →                      │
+│                                         │
+└─────────────────────────────────────────┘
+
+MAIN AXIS
+→ → → → → → → → →
+```
+
+### Regra
+
+```text
+row
+→ Main Axis = horizontal
+→ Cross Axis = vertical
+```
+
+---
+
+## `flex-direction: column`
+
+```css
+.container {
+  display: flex;
+  flex-direction: column;
+}
+```
+
+Visualmente:
+
+```text
+┌──────────────────┐
+│      [ 1 ]       │
+│        ↓         │
+│      [ 2 ]       │
+│        ↓         │
+│      [ 3 ]       │
+│                  │
+└──────────────────┘
+
+MAIN AXIS
+    ↓
+    ↓
+    ↓
+```
+
+### Regra
+
+```text
+column
+→ Main Axis = vertical
+→ Cross Axis = horizontal
+```
+
+---
+
+# 🧭 3. MAPA VISUAL DO FLEXBOX
+
+## `flex-direction`
+
+```text
+row
+→ → → → →
+esquerda → direita
+
+column
+↓
+↓
+↓
+cima → baixo
+```
+
+---
+
+# ↔️ 4. `justify-content`
+
+### Pergunta:
+
+> **Para onde quero levar os elementos no Main Axis?**
+
+---
+
+## `flex-start`
+
+```text
+┌────────────────────────────────────────┐
+│ [1] [2] [3]                            │
+│  ↑                                     │
+│ COMEÇO                                 │
+└────────────────────────────────────────┘
+```
+
+Com `row`:
+
+```text
+COMEÇO = esquerda
+```
+
+Com `column`:
+
+```text
+COMEÇO = cima
+```
+
+---
+
+## `center`
+
+```text
+┌────────────────────────────────────────┐
+│                                        │
+│              [1] [2] [3]              │
+│                    ↑                   │
+│                  CENTRO                │
+│                                        │
+└────────────────────────────────────────┘
+```
+
+---
+
+## `flex-end`
+
+```text
+┌────────────────────────────────────────┐
+│                          [1] [2] [3]  │
+│                                  ↑     │
+│                                  FIM   │
+└────────────────────────────────────────┘
+```
+
+Com `row`:
+
+```text
+flex-end = direita
+```
+
+Com `column`:
+
+```text
+flex-end = baixo
+```
+
+---
+
+# ↕️ 5. `align-items`
+
+### Pergunta:
+
+> **Como quero alinhar os itens no Cross Axis?**
+
+Com `row`:
+
+```text
+MAIN AXIS
+→ → → → →
+
+CROSS AXIS
+↓
+↓
+↓
+```
+
+---
+
+## `align-items: flex-start`
+
+```text
+┌──────────────────────────────┐
+│ [1] [2] [3]                  │ ← COMEÇO
+│                              │
+│                              │
+│                              │
+└──────────────────────────────┘
+```
+
+---
+
+## `align-items: center`
+
+```text
+┌──────────────────────────────┐
+│                              │
+│                              │
+│ [1] [2] [3]                  │ ← CENTRO
+│                              │
+│                              │
+└──────────────────────────────┘
+```
+
+---
+
+## `align-items: flex-end`
+
+```text
+┌──────────────────────────────┐
+│                              │
+│                              │
+│                              │
+│ [1] [2] [3]                  │ ← FIM
+└──────────────────────────────┘
+```
+
+---
+
+# ⭐ 6. `justify-content` + `align-items`
+
+Podemos usar os dois juntos:
+
+```css
+.container {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+```
+
+Visualmente:
+
+```text
+┌──────────────────────────────────┐
+│                                  │
+│                                  │
+│             [BOX]                │
+│                                  │
+│                                  │
+└──────────────────────────────────┘
+                 ↑
+               CENTRO
+```
+
+### Regra visual
+
+```text
+justify-content
+→ MAIN AXIS
+
+align-items
+→ CROSS AXIS
+```
+
+---
+
+# ↔️ 7. `gap`
+
+### Pergunta:
+
+> **Quero espaço entre os elementos?**
+
+Use:
+
+```css
+.container {
+  gap: 20px;
+}
+```
+
+Visualmente:
+
+```text
+[ BOX 1 ] ← 20px → [ BOX 2 ] ← 20px → [ BOX 3 ]
+```
+
+### Importante
+
+`gap` não é para mover o grupo para esquerda ou direita.
+
+Ele cria **espaço entre os itens**.
+
+---
+
+# 📦 8. `flex-wrap`
+
+Por padrão:
+
+```css
+flex-wrap: nowrap;
+```
+
+Os itens tentam ficar na mesma linha.
+
+Se não couberem:
+
+```css
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+```
+
+Podemos ter:
+
+```text
+┌────────────────────────────┐
+│ [1] [2] [3]               │
+│                            │
+│ [4] [5]                   │
+└────────────────────────────┘
+```
+
+### Regra visual
+
+```text
+NÃO CABE
+   ↓
+QUEBRA
+   ↓
+PRÓXIMA LINHA
+```
+
+---
+
+# ↕️ 9. `align-content`
+
+Só começa a ser realmente importante quando temos **mais de uma flex line**.
+
+Normalmente usamos:
+
+```css
+flex-wrap: wrap;
+```
+
+Exemplo:
+
+```text
+┌────────────────────────────┐
+│                            │
+│ [1] [2]                    │
+│                            │
+│ [3] [4]                    │
+│                            │
+└────────────────────────────┘
+```
+
+`align-content` distribui as **linhas** no Cross Axis.
+
+### Diferença
+
+```text
+align-items
+→ itens dentro da linha
+
+align-content
+→ linhas dentro do container
+```
+
+---
+
+# 📏 10. `flex-basis`
+
+### Pergunta:
+
+> **Qual é o tamanho-base do item no Main Axis?**
+
+```css
+.primeiro {
+  flex-basis: 200px;
+}
+```
+
+Não memorize:
+
+```text
+basis = largura
+```
+
+Memorize:
+
+```text
+basis = tamanho-base no Main Axis
+```
+
+---
+
+## Com `row`
+
+```text
+MAIN AXIS
+→ → → → →
+
+[────── 200px ──────]
+```
+
+`flex-basis` controla principalmente a dimensão horizontal.
+
+---
+
+## Com `column`
+
+```text
+MAIN AXIS
+    ↓
+    ↓
+
+[ BOX ]
+   ↕
+ 200px
+```
+
+`flex-basis` controla principalmente a dimensão vertical.
+
+---
+
+# 📈 11. `flex-grow`
+
+### Pergunta:
+
+> **Sobrou espaço. Quem pode crescer?**
+
+Exemplo:
+
+```css
+.primeiro {
+  flex-grow: 1;
+}
+
+.segundo {
+  flex-grow: 2;
+}
+```
+
+Visualmente:
+
+```text
+ESPAÇO SOBRANDO
+        ↓
+┌──────────────────────────────────────┐
+│ [ BOX 1 ]      [ BOX 2 ]             │
+└──────────────────────────────────────┘
+       ↑               ↑
+      +1              +2
+```
+
+Proporção:
+
+```text
+1 : 2
+```
+
+O segundo recebe uma participação maior no espaço livre.
+
+### Regra
+
+```text
+SOBRA ESPAÇO
+     ↓
+flex-grow
+     ↓
+CRESCER
+```
+
+---
+
+# 📉 12. `flex-shrink`
+
+### Pergunta:
+
+> **Faltou espaço. Quem precisa encolher?**
+
+Exemplo:
+
+```text
+Container = 300px
+
+BOX 1 = 200px
+BOX 2 = 200px
+BOX 3 = 200px
+```
+
+Temos:
+
+```text
+600px de conteúdo
+300px de espaço
+```
+
+Não cabe.
+
+```text
+┌────────────────────┐
+│ [1][2][3]          │
+└────────────────────┘
+        ↑
+    NÃO CABE
+```
+
+Então o Flexbox pode reduzir os itens:
+
+```text
+[ BOX 1 ]   [ BOX 2 ]   [ BOX 3 ]
+    ↓           ↓           ↓
+ ENCOLHE     ENCOLHE     ENCOLHE
+```
+
+### Regra
+
+```text
+FALTA ESPAÇO
+     ↓
+flex-shrink
+     ↓
+ENCOLHER
+```
+
+---
+
+# 🧠 13. Os três juntos
+
+```text
+             FLEX ITEM
+                 │
+                 ↓
+            flex-basis
+                 │
+          TAMANHO-BASE
+                 │
+        ┌────────┴────────┐
+        ↓                 ↓
+ SOBRA ESPAÇO         FALTA ESPAÇO
+        ↓                 ↓
+   flex-grow          flex-shrink
+        ↓                 ↓
+     CRESCE            ENCOLHE
+```
+
+### Forma fácil de lembrar
+
+```text
+basis
+→ COMECE COM QUANTO?
+
+grow
+→ SOBROU, QUANTO CRESCE?
+
+shrink
+→ FALTOU, QUANTO ENCOLHE?
+```
+
+---
+
+# 🧭 14. MAPA COMPLETO DE DECISÃO
+
+Quando encontrar um problema de Flexbox:
+
+```text
+                 FLEXBOX
+                    ↓
+             É CONTAINER?
+              ↙          ↘
+            SIM           NÃO
+             ↓             ↓
+     propriedades       Flex Item
+      do container          ↓
+             ↓       grow / shrink / basis
+             ↓
+      flex-direction
+             ↓
+     ┌───────┴───────┐
+     ↓               ↓
+    ROW            COLUMN
+     ↓               ↓
+Horizontal         Vertical
+     ↓               ↓
+MAIN AXIS          MAIN AXIS
+     ↓               ↓
+```
+
+Depois pergunte:
+
+```text
+QUERO MOVER NO MAIN AXIS?
+          ↓
+   justify-content
+```
+
+```text
+QUERO ALINHAR NO CROSS AXIS?
+          ↓
+      align-items
+```
+
+```text
+QUERO ESPAÇO ENTRE OS ITENS?
+          ↓
+          gap
+```
+
+```text
+NÃO CABE?
+          ↓
+      flex-wrap
+```
+
+```text
+TEM VÁRIAS LINHAS?
+          ↓
+    align-content
+```
+
+```text
+SOBROU ESPAÇO?
+          ↓
+      flex-grow
+```
+
+```text
+FALTOU ESPAÇO?
+          ↓
+     flex-shrink
+```
+
+```text
+QUERO DEFINIR TAMANHO BASE?
+          ↓
+      flex-basis
+```
+
+---
+
+# 🎯 15. MAPA RÁPIDO — ESQUERDA / DIREITA / CIMA / BAIXO
+
+## Com `row`
+
+```text
+                CIMA
+                  ↑
+                  │
+ESQUERDA ←── [ BOX ] ──→ DIREITA
+                  │
+                  ↓
+                BAIXO
+```
+
+```text
+justify-content
+→ esquerda / centro / direita
+
+align-items
+→ cima / centro / baixo
+```
+
+---
+
+## Com `column`
+
+```text
+                CIMA
+                  ↑
+                  │
+                  │
+                [BOX]
+                  │
+                  ↓
+                BAIXO
+```
+
+Aqui:
+
+```text
+justify-content
+→ cima / centro / baixo
+
+align-items
+→ esquerda / centro / direita
+```
+
+### ⭐ Atenção
+
+Isso acontece porque `justify-content` sempre segue o **Main Axis**.
+
+---
+
+# 📊 16. TABELA VISUAL
+
+| Propriedade       | Pergunta                     | Onde trabalha?     |
+| ----------------- | ---------------------------- | ------------------ |
+| `flex-direction`  | Qual direção?                | Define Main Axis   |
+| `justify-content` | Para onde no eixo principal? | Main Axis          |
+| `align-items`     | Como alinhar no outro eixo?  | Cross Axis         |
+| `gap`             | Quanto espaço entre itens?   | Espaço entre itens |
+| `flex-wrap`       | Pode quebrar?                | Flex lines         |
+| `align-content`   | Como distribuir as linhas?   | Cross Axis         |
+| `flex-grow`       | Sobrou espaço?               | Crescimento        |
+| `flex-shrink`     | Faltou espaço?               | Redução            |
+| `flex-basis`      | Qual tamanho-base?           | Main Axis          |
+
+---
+
+# 📚 17. CONTAINER × ITEM
+
+## Container
+
+```text
+.container
+│
+├── display: flex
+├── flex-direction
+├── justify-content
+├── align-items
+├── gap
+├── flex-wrap
+└── align-content
+```
+
+## Flex Item
+
+```text
+.box
+│
+├── flex-grow
+├── flex-shrink
+└── flex-basis
+```
+
+---
+
+# 🧪 18. Exercício mental
+
+Antes de escrever código, sempre responda:
+
+### Pergunta 1
+
+```css
+flex-direction: row;
+```
+
+Main Axis é:
+
+```text
+→ horizontal
+```
+
+### Pergunta 2
+
+```css
+justify-content: flex-end;
+```
+
+Com `row`, os itens vão para:
+
+```text
+→ direita
+```
+
+### Pergunta 3
+
+```css
+align-items: flex-end;
+```
+
+Com `row`, os itens vão para:
+
+```text
+↓ baixo
+```
+
+---
+
+# 🧪 19. Exercício mental — `column`
+
+```css
+.container {
+  display: flex;
+  flex-direction: column;
+}
+```
+
+Agora:
+
+```text
+Main Axis
+↓
+```
+
+Então:
+
+```css
+justify-content: flex-end;
+```
+
+significa:
+
+```text
+↓ BAIXO
+```
+
+E:
+
+```css
+align-items: flex-end;
+```
+
+significa:
+
+```text
+→ DIREITA
+```
+
+---
+
+# 🧪 20. Exercício de tamanho
+
+```css
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 600px;
+}
+
+.primeiro {
+  flex-basis: 100px;
+  flex-grow: 1;
+}
+
+.segundo {
+  flex-basis: 200px;
+  flex-grow: 2;
+}
+
+.terceiro {
+  flex-basis: 100px;
+}
+```
+
+Primeiro:
+
+```text
+100 + 200 + 100
+= 400px
+```
+
+Container:
+
+```text
+600px
+```
+
+Sobram:
+
+```text
+200px
+```
+
+Então:
+
+```text
+flex-grow
+     ↓
+espaço sobrando
+     ↓
+BOX 1 → 1 parte
+BOX 2 → 2 partes
+BOX 3 → 0
+```
+
+---
+
+# 🧪 21. Exercício de falta de espaço
+
+```css
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 300px;
+}
+
+.primeiro {
+  flex-basis: 100px;
+}
+
+.segundo {
+  flex-basis: 200px;
+}
+
+.terceiro {
+  flex-basis: 100px;
+}
+```
+
+Total:
+
+```text
+100 + 200 + 100
+= 400px
+```
+
+Container:
+
+```text
+300px
+```
+
+Então:
+
+```text
+400px de conteúdo
+300px disponíveis
+        ↓
+100px faltando
+        ↓
+flex-shrink
+        ↓
+redução
+```
+
+---
+
+# 🏆 22. REGRA DE OURO
+
+Nunca comece pensando:
+
+> "Qual propriedade eu tenho que usar?"
+
+Comece pensando:
+
+```text
+1. Qual é o container?
+        ↓
+2. Qual é o flex-direction?
+        ↓
+3. Onde está o Main Axis?
+        ↓
+4. Onde está o Cross Axis?
+        ↓
+5. Quero mover ou alinhar?
+        ↓
+6. Existe espaço sobrando ou faltando?
+        ↓
+7. Preciso controlar o tamanho-base?
+```
+
+---
+
+# 🗺️ 23. CRONOGRAMA DO FLEXBOX
+
+## 🟢 BÁSICO — CONCLUÍDO
+
+```text
+01. display: flex                 ✅
+02. Container × Items             ✅
+03. Main Axis × Cross Axis        ✅
+04. flex-direction                ✅
+05. justify-content               ✅
+06. align-items                   ✅
+07. gap                           ✅
+08. flex-wrap                     ✅
+09. align-content                 ✅
+10. flex-grow                     ✅
+11. flex-shrink                   ✅
+12. flex-basis                    ✅
+13. grow + shrink + basis         ✅
+14. Exercícios                    ✅
+15. Revisão                       ✅
+16. README                        ✅
+```
+
+---
+
+# 🟡 INTERMEDIÁRIO — PRÓXIMA ETAPA
+
+```text
+01. flex shorthand
+        ↓
+02. flex: 1
+        ↓
+03. flex: auto
+        ↓
+04. flex: none
+        ↓
+05. flex: initial
+        ↓
+06. grow + shrink + basis
+        ↓
+07. order
+        ↓
+08. align-self
+        ↓
+09. flex-flow
+        ↓
+10. row-reverse
+        ↓
+11. column-reverse
+        ↓
+12. space-between
+        ↓
+13. space-around
+        ↓
+14. space-evenly
+        ↓
+15. baseline
+        ↓
+16. row-gap
+        ↓
+17. column-gap
+        ↓
+18. exercícios combinados
+        ↓
+19. CodePen
+        ↓
+20. desafio
+        ↓
+21. revisão
+        ↓
+22. README
+```
+
+---
+
+# 🔴 AVANÇADO
+
+```text
+01. Flexbox + Responsive Design
+        ↓
+02. Flexbox dentro de Flexbox
+        ↓
+03. Containers aninhados
+        ↓
+04. Header profissional
+        ↓
+05. Navbar
+        ↓
+06. Hero Section
+        ↓
+07. Cards
+        ↓
+08. Formulários
+        ↓
+09. margin: auto
+        ↓
+10. overflow
+        ↓
+11. min-width / min-height
+        ↓
+12. conteúdo variável
+        ↓
+13. Flexbox + Media Queries
+        ↓
+14. Flexbox + Grid
+        ↓
+15. quando usar Flexbox × Grid
+        ↓
+16. layouts reais
+        ↓
+17. projeto final
+        ↓
+18. revisão
+        ↓
+19. README
+```
+
+---
+
+# 📚 24. MÉTODO DE ESTUDO
+
+Para cada novo assunto:
+
+```text
+TEORIA
+   ↓
+DESENHO VISUAL
+   ↓
+EXPLICAÇÃO
+   ↓
+EXERCÍCIO GUIADO
+   ↓
+CODEPEN
+   ↓
+VOCÊ FAZ SOZINHO
+   ↓
+CORREÇÃO
+   ↓
+DESAFIO
+   ↓
+REVISÃO
+   ↓
+README
+```
+
+### Regra do professor
+
+> **Não avançamos simplesmente porque você viu a propriedade.**
+
+Você precisa conseguir:
+
+```text
+ENTENDER
+   ↓
+EXPLICAR
+   ↓
+PREVER
+   ↓
+ESCREVER
+   ↓
+USAR
+```
+
+---
+
+# 🏁 STATUS ATUAL
+
+```text
+CSS
+│
+├── Básico
+│   ├── Box Model              ✅
+│   ├── Responsive Design      ✅ parcial
+│   └── Flexbox                ✅ BÁSICO
+│
+├── Intermediário
+│   └── Flexbox                ⏳ PRÓXIMO
+│
+└── Avançado
+    └── Flexbox                ⏳ FUTURO
+```
+
+### Próxima aula
+
+# 🚀 FLEXBOX INTERMEDIÁRIO — `flex`
+
+Começaremos entendendo:
+
+```css
+flex: 1;
+```
+
+mas **sem decorar**.
+
+Vamos desmontar:
+
+```text
+flex
+ ↓
+grow
+shrink
+basis
+```
+
+e entender exatamente o que o navegador está fazendo.
