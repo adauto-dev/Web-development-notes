@@ -1,605 +1,445 @@
-# 🚀 ROADMAP FULL STACK 2.3
 
-## Full Stack + Web Design + Marketing Digital + IA + Automação + SaaS + Segurança
 
-> **Objetivo:** aprender a criar, projetar, proteger, publicar, divulgar e evoluir produtos digitais completos — desde websites até aplicações Full Stack, sistemas com IA, automações e SaaS.
+# 🚀 ROADMAP FULL STACK 2.4 — OFICIAL
 
-**Versão:** 2.3
+## Full Stack + Web Design + Marketing Digital + IA + Automação + Segurança + SaaS + Carreira Independente
+
+> **Objetivo:** aprender a criar, projetar, proteger, publicar, divulgar, automatizar e transformar produtos digitais em negócios reais — de websites e aplicações Full Stack até sistemas com IA, automações, aplicativos e SaaS — preparando para trabalhar remotamente, atender clientes e construir uma carreira independente.
+
+---
+
+# 📌 INFORMAÇÕES
+
+**Versão:** 2.4
+**Status:** Oficial
+**Data:** 29/08/2026
 **Duração de referência:** aproximadamente 2 anos
-**Estudo principal:** 2 horas por dia, segunda a sexta
+**Período de referência:** agosto/2026 → dezembro/2027
+**Estudo principal:** aproximadamente 2 horas por dia, segunda a sexta
 **IA paralela:** aproximadamente 1 hora por semana desde o Ano 1
-**Método:** teoria → exercício → prática → desafio → projeto → revisão
-**Estrutura:** Básico → Médio → Avançado
-**Objetivo profissional:** começar a trabalhar assim que houver capacidade real de entregar valor, sem precisar esperar o fim dos 2 anos.
+**Método:** teoria → exercícios → prática → desafio → projeto → revisão → avaliação
+**Organização das aulas:** Básico → Médio → Avançado
+
+> Os dois anos são uma referência. O objetivo é dominar os conteúdos e construir experiência prática, não simplesmente terminar aulas.
 
 ---
 
-# 📚 SUMÁRIO
+# 🎯 OBJETIVO PROFISSIONAL
 
-1. Objetivo
-2. Como o roadmap funciona
-3. Método de aprendizagem
-4. Exercícios reais
-5. Ordem principal da programação
-6. Ano 1
-7. Fundamentos da Web
-8. HTML
-9. CSS
-10. JavaScript
-11. HTML + CSS + JavaScript
-12. DOM
-13. APIs + JSON + Fetch
-14. Git + GitHub
-15. Web Design + Figma
-16. Marketing Digital
-17. SEO
-18. Tráfego Pago
-19. Tailwind CSS
-20. React
-21. TypeScript
-22. Next.js
-23. Segurança desde o Ano 1
-24. IA paralela do Ano 1
-25. Ano 2
-26. Node.js
-27. APIs REST
-28. PostgreSQL completo
-29. Engenharia de Software
-30. Arquitetura de Software
-31. Autenticação
-32. Autorização
-33. Segurança de aplicações
-34. Segurança de APIs
-35. Segurança de banco de dados
-36. Testes
-37. Linux
-38. Docker
-39. Cloud + Deploy
-40. Performance
-41. Observabilidade
-42. GraphQL
-43. Python
-44. IA profissional
-45. RAG
-46. Tools + Function Calling
-47. Workflows
-48. Agents
-49. Multi-Agent
-50. Queues + Workers
-51. Background Jobs
-52. Automação
-53. SaaS
-54. ServiceFlow
-55. Projetos
-56. Entrada no mercado
-57. Senioridade
-58. Stack final
-59. Controle de progresso
-60. Regras
-61. Resultado final
+Ao longo do roadmap, desenvolver capacidade para:
+
+* criar websites;
+* criar landing pages;
+* criar interfaces profissionais;
+* trabalhar com Web Design;
+* desenvolver frontend;
+* desenvolver backend;
+* criar APIs;
+* trabalhar com bancos de dados;
+* criar sistemas de autenticação;
+* proteger aplicações;
+* testar sistemas;
+* fazer deploy;
+* utilizar Linux;
+* utilizar Docker;
+* utilizar Cloud;
+* criar sistemas com IA;
+* criar automações;
+* criar agentes;
+* criar sistemas Multi-Agent;
+* criar aplicações multilíngues;
+* criar aplicativos;
+* criar SaaS;
+* trabalhar com SEO;
+* trabalhar com Analytics;
+* entender Tráfego Pago;
+* fazer freelance;
+* atender clientes internacionais;
+* criar contratos recorrentes;
+* criar produtos próprios;
+* trabalhar remotamente.
 
 ---
 
-# 🎯 1. OBJETIVO
-
-Este roadmap NÃO é somente para fazer websites.
-
-A meta é desenvolver capacidade para trabalhar com:
-
-* Web Design;
-* UI/UX;
-* Frontend;
-* Backend;
-* Full Stack;
-* bancos de dados;
-* APIs;
-* Engenharia de Software;
-* Arquitetura;
-* Segurança;
-* Marketing Digital;
-* SEO;
-* Tráfego Pago;
-* Inteligência Artificial;
-* Automação;
-* Agents;
-* Multi-Agent Systems;
-* Background Jobs;
-* SaaS.
-
-A visão final:
+# 🧭 VISÃO GERAL
 
 ```text
-IDEIA
- ↓
-PESQUISA
- ↓
-UX/UI
- ↓
-DESIGN
- ↓
-MARKETING
- ↓
-FRONTEND
- ↓
-BACKEND
- ↓
-DATABASE
- ↓
-SEGURANÇA
- ↓
-ENGENHARIA
- ↓
-ARQUITETURA
- ↓
-IA
- ↓
-AUTOMAÇÃO
- ↓
-DEPLOY
- ↓
-SAAS
-```
-
----
-
-# 🧠 2. COMO O ROADMAP FUNCIONA
-
-Não vamos estudar tecnologia simplesmente para "ter no currículo".
-
-Cada tecnologia precisa responder:
-
-> Qual problema ela resolve?
-
-A sequência será construída para que uma tecnologia prepare você para a próxima.
-
----
-
-# 🔗 3. ORDEM PRINCIPAL DA PROGRAMAÇÃO
-
-Esta é uma das partes mais importantes do roadmap.
-
-```text
-Fundamentos da Web
+FUNDAMENTOS DA WEB
         ↓
 HTML
         ↓
 CSS
         ↓
-JavaScript
+JAVASCRIPT
         ↓
-HTML + CSS + JavaScript
+HTML + CSS + JAVASCRIPT
         ↓
 DOM
         ↓
-Projetos com DOM
+APIs + JSON + FETCH
         ↓
-JSON + Fetch
+GIT + GITHUB
         ↓
-APIs
+WEB DESIGN + FIGMA
         ↓
-Projetos consumindo APIs
+RESPONSIVE DESIGN
         ↓
-Git + GitHub
+ACESSIBILIDADE
         ↓
-React
+TAILWIND CSS
         ↓
-TypeScript
+REACT
         ↓
-Next.js
+TYPESCRIPT
+        ↓
+NEXT.JS
+        ↓
+INTERNACIONALIZAÇÃO
+        ↓
+NODE.JS
+        ↓
+REST APIs
+        ↓
+POSTGRESQL
+        ↓
+PRISMA / ORM
+        ↓
+AUTENTICAÇÃO + AUTORIZAÇÃO
+        ↓
+TESTES
+        ↓
+SEGURANÇA
+        ↓
+ENGENHARIA DE SOFTWARE
+        ↓
+ARQUITETURA
+        ↓
+PERFORMANCE
+        ↓
+LINUX
+        ↓
+DOCKER
+        ↓
+CLOUD + DEPLOY + CI/CD
+        ↓
+OBSERVABILIDADE + REDIS + CACHE
+        ↓
+GRAPHQL
+        ↓
+PYTHON
+        ↓
+IA + MACHINE LEARNING
+        ↓
+RAG + EMBEDDINGS
+        ↓
+TOOLS + FUNCTION CALLING
+        ↓
+AGENTS
+        ↓
+MULTI-AGENT
+        ↓
+QUEUES + WORKERS
+        ↓
+BACKGROUND + SCHEDULED JOBS
+        ↓
+AUTOMAÇÃO
+        ↓
+APPS
+        ↓
+MARKETING + SEO + ANALYTICS + TRÁFEGO PAGO
+        ↓
+FREELANCE + CLIENTES
+        ↓
+RENDA RECORRENTE
+        ↓
+SAAS + PRODUTOS PRÓPRIOS
 ```
 
 ---
 
-# 🧱 4. HTML → CSS → JAVASCRIPT
+# 🧠 MÉTODO DE APRENDIZADO
 
-## HTML
-
-Responsável principalmente pela:
-
-**estrutura da página.**
+Cada assunto importante seguirá:
 
 ```text
-HTML
-↓
-Estrutura
-↓
-Conteúdo
-↓
-Semântica
+1. TEORIA
+      ↓
+2. EXERCÍCIOS
+      ↓
+3. PRÁTICA
+      ↓
+4. AMBIENTE DE PRÁTICA
+      ↓
+5. DESAFIO
+      ↓
+6. PROJETO
+      ↓
+7. REVISÃO
+      ↓
+8. AVALIAÇÃO
+      ↓
+9. PRÓXIMA ETAPA
 ```
 
----
+### Ambientes de prática
 
-## CSS
-
-Responsável principalmente pelo:
-
-**visual, layout e responsividade.**
-
-```text
-CSS
-↓
-Visual
-↓
-Layout
-↓
-Responsividade
-↓
-Animações
-```
-
----
-
-## JavaScript
-
-Responsável principalmente por:
-
-**comportamento, interação e lógica.**
-
-```text
-JavaScript
-↓
-Lógica
-↓
-Interação
-↓
-Comportamento
-```
-
----
-
-# 🔗 5. OS TRÊS SE CONECTAM
-
-Depois de aprender as bases:
-
-```text
-HTML
-+
-CSS
-+
-JavaScript
-```
-
-Vamos construir aplicações reais.
-
-Depois:
-
-```text
-HTML
-+
-CSS
-+
-JavaScript
-        ↓
-       DOM
-```
-
-O DOM mostra como JavaScript pode controlar a página.
-
-Depois:
-
-```text
-JavaScript
- ↓
-Fetch
- ↓
-API
- ↓
-JSON
- ↓
-Dados
- ↓
-Interface
-```
-
-Só então avançamos para:
-
-```text
-React
- ↓
-TypeScript
- ↓
-Next.js
-```
-
-Isso evita aprender frameworks sem entender os fundamentos que estão por trás deles.
-
----
-
-# 🧪 6. MÉTODO DE APRENDIZAGEM
-
-Cada assunto poderá seguir:
-
-### 1. Teoria
-
-Entender o conceito.
-
-### 2. Exemplos
-
-Ver como funciona.
-
-### 3. Exercícios
-
-Resolver problemas pequenos.
-
-### 4. Prática
-
-Escrever código.
-
-### 5. Desafio
-
-Tentar resolver sem copiar.
-
-### 6. Projeto
-
-Aplicar o conhecimento.
-
-### 7. Revisão
-
-Verificar o que realmente foi aprendido.
-
-### 8. Correção
-
-Corrigir erros e lacunas.
-
----
-
-# 💻 7. EXERCÍCIOS REAIS
-
-A prática será constante.
-
-## HTML/CSS
-
-Usaremos:
+Dependendo da tecnologia:
 
 * CodePen;
-* navegador;
-* DevTools;
-* pequenos projetos.
+* VS Code;
+* GitHub;
+* StackBlitz;
+* projetos locais;
+* ambientes de teste;
+* servidores;
+* Cloud.
 
-## JavaScript
-
-* CodePen;
-* console;
-* DOM;
-* aplicações pequenas;
-* APIs.
-
-## React
-
-* projetos React.
-
-## Next.js
-
-* aplicações Full Stack.
-
-## Backend
-
-* APIs reais de desenvolvimento.
-
-## Banco
-
-* consultas SQL;
-* modelagem;
-* aplicações conectadas ao PostgreSQL.
-
-## IA
-
-* aplicações utilizando APIs;
-* RAG;
-* tools;
-* agentes;
-* automações.
+> CodePen será utilizado principalmente em HTML, CSS e JavaScript. Não é necessário utilizá-lo em todas as tecnologias.
 
 ---
 
-# 🌐 ANO 1
+# 🌐 ETAPA 01 — FUNDAMENTOS DA WEB
 
-# ETAPA 01 — FUNDAMENTOS DA WEB
+Esta etapa vem antes do HTML.
 
-## 🟢 Básico
+## Básico
 
 * Internet;
 * Web;
+* Internet × Web;
 * navegador;
-* servidor;
-* cliente;
 * website;
-* aplicação web;
+* Web App;
 * frontend;
-* backend.
-
-## 🟡 Médio
-
+* backend;
+* cliente;
+* servidor;
+* domínio;
+* URL;
+* hospedagem;
+* servidor Web;
+* DNS;
 * HTTP;
-* HTTPS;
+* HTTPS.
+
+## Médio
+
 * request;
 * response;
-* URL;
-* domínio;
-* DNS;
-* hospedagem;
-* APIs.
-
-## 🔴 Avançado
-
+* métodos HTTP;
+* GET;
+* POST;
+* PUT;
+* PATCH;
+* DELETE;
+* status codes;
 * headers;
 * cookies;
 * cache;
-* status codes;
-* arquitetura cliente-servidor;
-* fundamentos de segurança.
+* sessões;
+* JSON;
+* APIs;
+* REST;
+* CORS;
+* DevTools.
+
+## Avançado
+
+* ciclo completo de uma requisição;
+* DNS → servidor → HTTP → navegador;
+* HTTPS/TLS em nível conceitual;
+* CDN;
+* cache;
+* performance;
+* arquitetura básica da Web;
+* segurança básica;
+* como o navegador interpreta uma página.
+
+### Objetivo
+
+Entender **como a Web funciona antes de começar a construir para ela**.
 
 ---
 
-# 🧱 ETAPA 02 — HTML
+# 🟢 ETAPA 02 — HTML
 
-## 🟢 Básico
+## Básico
 
-* elementos;
-* atributos;
-* headings;
+* estrutura HTML;
+* `DOCTYPE`;
+* `html`;
+* `head`;
+* `body`;
+* títulos;
 * parágrafos;
+* textos;
+* comentários;
 * links;
 * imagens;
 * listas;
-* tabelas.
+* atributos;
+* caminhos;
+* organização de arquivos.
 
-## 🟡 Médio
+## Médio
 
-* forms;
+* HTML semântico;
+* `header`;
+* `nav`;
+* `main`;
+* `section`;
+* `article`;
+* `aside`;
+* `footer`;
+* `figure`;
+* formulários;
 * inputs;
 * labels;
 * buttons;
-* textarea;
 * select;
-* semantic HTML;
-* header;
-* nav;
-* main;
-* section;
-* article;
-* footer.
+* textarea;
+* tabelas;
+* áudio;
+* vídeo;
+* iframe.
 
-## 🔴 Avançado
+## Avançado
 
-* acessibilidade;
-* metadata;
-* SEO;
-* structured data;
-* formulários acessíveis.
+* semântica avançada;
+* formulários profissionais;
+* estrutura profissional de páginas;
+* boas práticas;
+* HTML preparado para CSS e JavaScript;
+* fundamentos de SEO técnico;
+* fundamentos de acessibilidade.
 
-## 🧪 Projetos
+### Projetos
 
 * página pessoal;
-* currículo;
-* formulário;
-* página de produto;
-* página comercial.
+* página de apresentação;
+* página comercial;
+* landing page;
+* formulário.
 
 ---
 
 # 🎨 ETAPA 03 — CSS
 
-## 🟢 Básico
+## Básico
 
+* sintaxe;
 * seletores;
-* cascata;
-* especificidade;
-* herança;
+* classes;
+* IDs;
+* cores;
+* unidades;
+* fontes;
+* textos;
+* backgrounds;
+* bordas;
+* sombras;
 * Box Model;
 * margin;
 * padding;
-* border;
 * width;
 * height;
-* unidades;
-* cores;
-* tipografia.
+* display.
 
-## 🟡 Médio
+## Médio
 
-### Flexbox
-
-* flex-direction;
-* justify-content;
-* align-items;
-* align-content;
+* Flexbox;
+* Grid;
+* posicionamento;
+* alinhamento;
 * gap;
 * flex-wrap;
-* flex-grow;
-* flex-shrink;
-* flex-basis.
-
-### Grid
-
-* columns;
-* rows;
-* gap;
-* areas;
-* alinhamento.
-
-### Layout
-
-* display;
-* position;
-* containers;
-* espaçamento;
 * media queries;
-* mobile-first;
-* responsive design.
+* variáveis CSS;
+* pseudo-classes;
+* pseudo-elementos;
+* transições;
+* transformações;
+* animações.
 
-## 🔴 Avançado
+## Avançado
 
-* CSS variables;
-* transitions;
-* transforms;
-* animations;
-* arquitetura CSS;
-* performance;
-* acessibilidade.
+* layouts complexos;
+* CSS responsivo;
+* arquitetura de estilos;
+* componentes;
+* design systems;
+* organização profissional;
+* acessibilidade;
+* performance.
 
-## 🧪 CodePen
+### Prática
 
-Projetos:
-
-* cards;
-* navbar;
-* hero;
-* grid;
-* dashboard;
-* landing page;
-* página responsiva.
+* CodePen;
+* componentes;
+* layouts;
+* páginas;
+* landing pages;
+* páginas responsivas.
 
 ---
 
 # 🟨 ETAPA 04 — JAVASCRIPT
 
-## 🟢 Básico
+## Básico
 
-* variables;
-* let;
-* const;
-* types;
+* lógica;
+* variáveis;
+* `let`;
+* `const`;
+* tipos;
+* operadores;
 * strings;
-* numbers;
-* booleans;
-* operators;
-* conditionals;
-* loops;
-* functions;
-* template literals.
-
-## 🟡 Médio
-
+* números;
+* booleanos;
 * arrays;
-* objects;
-* methods;
-* scope;
+* objetos;
+* condicionais;
+* loops;
+* funções;
+* parâmetros;
+* retorno;
+* template literals;
+* métodos de strings;
+* métodos de arrays.
+
+## Médio
+
+* escopo;
 * callbacks;
-* higher-order functions;
+* objetos;
+* arrays avançados;
 * destructuring;
 * spread;
-* modules;
-* classes.
+* rest;
+* módulos;
+* JSON;
+* erros;
+* `try/catch`;
+* Promises;
+* `async/await`.
 
-## 🔴 Avançado
+## Avançado
 
-* asynchronous JavaScript;
-* promises;
-* async/await;
-* error handling;
 * closures;
+* higher-order functions;
 * event loop;
-* performance.
+* assincronicidade;
+* módulos avançados;
+* performance;
+* organização;
+* padrões de código;
+* arquitetura básica.
 
 ---
 
 # 🔗 ETAPA 05 — HTML + CSS + JAVASCRIPT
 
-Agora os três serão utilizados juntos.
-
-Exemplo:
+Aqui começa a integração real.
 
 ```text
 HTML
@@ -608,2044 +448,2286 @@ estrutura
 
 CSS
 ↓
-visual
+visual + layout + responsividade
 
 JavaScript
 ↓
-interação
+comportamento + interação + lógica
 ```
 
-## Projetos
+### Projetos
 
 * menu;
 * modal;
+* FAQ;
 * formulário;
-* contador;
+* validação;
 * calculadora;
-* lista;
-* carrinho;
-* dashboard.
+* contador;
+* lista de tarefas;
+* página de produtos;
+* landing page interativa;
+* pequenos sistemas.
 
 ---
 
-# 🌳 ETAPA 06 — DOM
+# 🧠 ETAPA 06 — DOM
 
-## 🟢 Básico
+## Básico
 
-* document;
-* selectors;
-* querySelector;
-* querySelectorAll;
-* textContent;
-* innerHTML;
-* classList.
+* DOM;
+* árvore de elementos;
+* seleção;
+* `querySelector`;
+* `querySelectorAll`;
+* `getElementById`;
+* conteúdo;
+* classes;
+* estilos;
+* criação de elementos.
 
-## 🟡 Médio
+## Médio
 
-* events;
+* eventos;
 * click;
 * input;
 * submit;
-* forms;
-* creating elements;
-* removing elements.
-
-## 🔴 Avançado
-
-* event propagation;
-* delegation;
-* dynamic interfaces;
-* performance;
-* arquitetura de aplicações DOM.
-
----
-
-# 🌐 ETAPA 07 — JSON + FETCH + APIs
-
-## 🟢
-
-* JSON;
-* objects;
-* arrays;
-* fetch;
-* requests.
-
-## 🟡
-
-* GET;
-* POST;
-* response;
-* status codes;
-* async/await;
-* errors.
-
-## 🔴
-
-* APIs reais;
-* authentication básica;
-* headers;
-* query parameters;
-* pagination;
-* error handling.
-
-## 🎯 Projeto
-
-Aplicação consumindo uma API.
-
----
-
-# 🔧 ETAPA 08 — GIT + GITHUB
-
-* repositories;
-* commits;
-* branches;
-* merge;
-* conflicts;
-* pull;
-* push;
-* pull requests;
-* issues;
-* documentation.
-
----
-
-# 🎨 ETAPA 09 — WEB DESIGN + FIGMA
-
-## 🟢
-
-* composição;
-* cores;
-* tipografia;
-* contraste;
-* hierarquia;
-* alinhamento;
-* espaçamento.
-
-## 🟡
-
-* UI;
-* UX;
-* wireframes;
-* user flows;
-* prototyping;
-* components;
-* responsive design.
-
-## 🔴
-
-* Design Systems;
-* Variants;
-* Auto Layout;
-* UX research;
-* acessibilidade;
-* conversão;
-* SaaS design.
-
----
-
-# 📈 ETAPA 10 — MARKETING DIGITAL
-
-* persona;
-* público;
-* posicionamento;
-* proposta de valor;
-* branding;
-* copywriting;
-* CTA;
-* conteúdo;
-* redes sociais;
-* e-mail;
-* funil;
-* conversão;
-* retenção;
-* CRO.
-
----
-
-# 🔎 ETAPA 11 — SEO
-
-* keywords;
-* search intent;
-* titles;
-* headings;
-* meta description;
-* URLs;
-* images;
-* internal links;
-* backlinks;
-* SEO local;
-* performance;
-* technical SEO;
-* sitemap;
-* robots.txt;
-* canonical;
-* structured data;
-* Core Web Vitals.
-
----
-
-# 💰 ETAPA 12 — TRÁFEGO PAGO
-
-## Google Ads + Meta Ads
-
-* campanhas;
-* objetivos;
-* públicos;
-* orçamento;
-* CPC;
-* CPM;
-* CTR;
-* CPA;
-* ROAS;
-* segmentação;
-* criativos;
-* copy;
-* remarketing;
-* tracking;
-* conversões;
-* testes A/B;
-* análise.
-
----
-
-# 🎨 ETAPA 13 — TAILWIND CSS
-
-> Tailwind entra depois de uma boa base de CSS.
-
-## 🟢
-
-* utility classes;
-* spacing;
-* typography;
-* sizing;
-* flex;
-* grid.
-
-## 🟡
-
-* responsive;
-* hover;
-* focus;
-* dark mode;
-* components.
-
-## 🔴
-
-* customization;
-* themes;
-* design tokens;
-* component patterns;
-* React;
-* Next.js.
-
----
-
-# ⚛️ ETAPA 14 — REACT
-
-## 🟢
-
-* JSX;
-* components;
-* props;
-* state;
-* events;
-* lists;
-* conditional rendering.
-
-## 🟡
-
-* hooks;
-* forms;
-* API;
-* loading;
-* errors;
-* componentização.
-
-## 🔴
-
-* custom hooks;
-* state management;
-* performance;
-* architecture;
-* accessibility;
-* testing.
-
----
-
-# 🟦 ETAPA 15 — TYPESCRIPT
-
-## 🟢
-
-* types;
-* interfaces;
-* type;
-* arrays;
-* objects;
-* functions.
-
-## 🟡
-
-* unions;
-* generics;
-* narrowing;
-* utility types;
-* APIs;
-* React + TypeScript.
-
-## 🔴
-
-* advanced types;
-* architecture;
-* patterns;
-* Node + TypeScript.
-
----
-
-# ▲ ETAPA 16 — NEXT.JS
-
-## 🟢
-
-* routing;
-* layouts;
-* navigation;
-* rendering.
-
-## 🟡
-
-* Server Components;
-* Client Components;
-* data fetching;
-* forms;
-* APIs;
-* metadata;
-* SEO.
-
-## 🔴
-
-* caching;
-* authentication;
-* authorization;
-* performance;
-* Full Stack;
-* deployment.
-
----
-
-# 🛡️ ETAPA 17 — SEGURANÇA DESDE O ANO 1
-
-Segurança não será deixada somente para o final.
-
-## 🟢 Básico
-
-* HTTPS;
-* senhas;
-* dados pessoais;
-* secrets;
-* environment variables;
+* teclado;
+* formulários;
 * validação;
-* princípio do menor privilégio;
-* segurança de clientes.
+* listas dinâmicas.
 
-## 🟡 Médio
+## Avançado
 
-* XSS;
-* CSRF;
-* CORS;
-* SQL Injection;
-* autenticação;
-* autorização;
-* cookies;
-* sessions;
-* segurança de APIs.
-
-## 🔴 Avançado
-
-* OWASP;
-* rate limiting;
-* proteção contra abuso;
-* gestão de secrets;
-* segurança de banco;
-* segurança de infraestrutura;
-* logging;
-* monitoramento;
-* incidentes;
-* threat modeling.
-
-### Objetivo
-
-Aprender a proteger:
-
-```text
-Usuário
- ↓
-Frontend
- ↓
-API
- ↓
-Backend
- ↓
-Database
- ↓
-Infraestrutura
-```
-
-E também:
-
-```text
-Dados pessoais
-Credenciais
-Tokens
-Sessões
-Pagamentos
-Informações comerciais
-```
-
----
-
-# 🤖 ETAPA 18 — IA PARALELA — ANO 1
-
-A IA começa **já no primeiro ano**.
-
-### Aproximadamente 1 hora por semana.
-
-## 🟢 Básico
-
-* Inteligência Artificial;
-* Machine Learning;
-* Deep Learning;
-* LLM;
-* tokens;
-* contexto;
-* prompting;
-* limitações.
-
-## 🟡 Médio
-
-* APIs de IA;
-* structured output;
-* multimodalidade;
-* tools;
-* function calling;
-* automação.
-
-## 🔴 Introdução
-
-* RAG;
-* memória;
-* workflows;
-* agentes;
-* segurança de IA.
-
----
-
-# 🔵 ANO 2
-
-# ⚙️ ETAPA 19 — NODE.JS
-
-* runtime;
-* npm;
-* modules;
-* package.json;
-* environment variables;
-* HTTP;
-* servers;
-* routes;
-* middleware;
-* controllers;
-* services;
-* validation;
-* error handling;
-* logging;
+* event delegation;
+* estado no frontend;
+* componentes;
+* organização;
+* aplicações interativas;
 * performance.
 
 ---
 
-# 🌐 ETAPA 20 — APIs REST
+# 🌐 ETAPA 07 — APIs + JSON + FETCH
 
+## Básico
+
+* API;
+* cliente;
+* servidor;
+* request;
+* response;
+* HTTP;
+* JSON.
+
+## Médio
+
+* Fetch;
 * GET;
 * POST;
 * PUT;
 * PATCH;
 * DELETE;
-* JSON;
-* status codes;
 * headers;
-* validation;
-* pagination;
-* filtering;
-* sorting;
-* versioning;
-* caching;
-* rate limiting;
-* documentation;
-* security.
+* body;
+* erros.
+
+## Avançado
+
+* autenticação;
+* tokens;
+* integração;
+* segurança;
+* APIs reais;
+* boas práticas;
+* tratamento de falhas.
 
 ---
 
-# 🐘 ETAPA 21 — POSTGRESQL COMPLETO
+# 🐙 ETAPA 08 — GIT + GITHUB
 
-> PostgreSQL será o principal banco relacional do roadmap.
+## Básico
 
-## 🟢 Básico
+* Git;
+* repositório;
+* commit;
+* clone;
+* add;
+* push;
+* pull.
 
-* database;
-* tables;
+## Médio
+
+* branches;
+* merge;
+* pull requests;
+* conflitos;
+* `.gitignore`;
+* histórico.
+
+## Avançado
+
+* workflow;
+* colaboração;
+* documentação;
+* versionamento;
+* portfólio;
+* boas práticas profissionais.
+
+---
+
+# 🎨 ETAPA 09 — WEB DESIGN + UI/UX + FIGMA
+
+## Básico
+
+* UI;
+* UX;
+* cores;
+* tipografia;
+* espaçamento;
+* alinhamento;
+* hierarquia visual;
+* composição;
+* consistência.
+
+## Médio
+
+* Figma;
+* wireframes;
+* protótipos;
+* componentes;
+* Auto Layout;
+* grids;
+* design responsivo.
+
+## Avançado
+
+* Design Systems;
+* UX avançado;
+* acessibilidade;
+* prototipação;
+* handoff;
+* conversão;
+* experiência do usuário.
+
+---
+
+# 📱 ETAPA 10 — RESPONSIVE DESIGN
+
+* mobile first;
+* breakpoints;
+* layouts fluidos;
+* imagens responsivas;
+* tipografia responsiva;
+* Flexbox;
+* Grid;
+* acessibilidade;
+* testes em diferentes telas;
+* dispositivos móveis;
+* tablets;
+* desktop.
+
+---
+
+# ♿ ETAPA 11 — ACESSIBILIDADE WEB
+
+## Básico
+
+* acessibilidade;
+* navegação por teclado;
+* foco;
+* contraste;
+* textos alternativos;
+* labels;
+* formulários acessíveis.
+
+## Médio
+
+* ARIA;
+* landmarks;
+* leitores de tela;
+* acessibilidade de componentes;
+* acessibilidade em React.
+
+## Avançado
+
+* WCAG;
+* auditoria;
+* acessibilidade em aplicações grandes;
+* acessibilidade como parte do processo de desenvolvimento.
+
+---
+
+# 🌊 ETAPA 12 — TAILWIND CSS
+
+## Básico
+
+* utility classes;
+* spacing;
+* typography;
+* colors;
+* sizing;
+* flex;
+* grid.
+
+## Médio
+
+* responsividade;
+* estados;
+* componentes;
+* layouts;
+* reutilização.
+
+## Avançado
+
+* configuração;
+* design system;
+* componentes;
+* React;
+* Next.js;
+* organização profissional.
+
+---
+
+# ⚛️ ETAPA 13 — REACT
+
+## Básico
+
+* React;
+* componentes;
+* JSX;
+* props;
+* state;
+* eventos;
+* renderização.
+
+## Médio
+
+* hooks;
+* `useState`;
+* `useEffect`;
+* formulários;
+* listas;
+* conditional rendering;
+* componentização;
+* gerenciamento de estado.
+
+## Avançado
+
+* arquitetura;
+* hooks personalizados;
+* performance;
+* otimização;
+* gerenciamento avançado de estado;
+* APIs;
+* aplicações grandes.
+
+---
+
+# 🔷 ETAPA 14 — TYPESCRIPT
+
+## Básico
+
+* tipos;
+* interfaces;
+* type aliases;
+* unions;
+* objetos;
+* arrays;
+* funções.
+
+## Médio
+
+* generics;
+* narrowing;
+* utility types;
+* tipos avançados;
+* React + TypeScript.
+
+## Avançado
+
+* arquitetura;
+* tipos reutilizáveis;
+* frontend/backend;
+* boas práticas;
+* segurança de tipos.
+
+---
+
+# ▲ ETAPA 15 — NEXT.JS
+
+## Básico
+
+* estrutura;
+* routing;
+* páginas;
+* layouts;
+* componentes;
+* assets.
+
+## Médio
+
+* Server Components;
+* Client Components;
+* data fetching;
+* loading;
+* errors;
+* metadata;
+* SEO.
+
+## Avançado
+
+* caching;
+* rendering;
+* performance;
+* autenticação;
+* aplicações Full Stack;
+* deploy;
+* arquitetura.
+
+---
+
+# 🌍 ETAPA 16 — INTERNACIONALIZAÇÃO + LOCALIZAÇÃO
+
+Preparar aplicações para vários idiomas e regiões.
+
+Exemplo:
+
+```text
+🇬🇧 English
+🇧🇷 Português
+🇫🇷 Français
+🇳🇱 Nederlands
+```
+
+## Básico
+
+* i18n;
+* l10n;
+* seleção de idioma;
+* arquivos de tradução;
+* textos dinâmicos;
+* idioma padrão.
+
+## Médio
+
+* rotas por idioma;
+* tradução de componentes;
+* datas;
+* números;
+* moedas;
+* pluralização;
+* formatos regionais.
+
+## Avançado
+
+* SEO internacional;
+* `lang`;
+* `hreflang`;
+* conteúdo multilíngue;
+* RTL;
+* arquitetura multilíngue;
+* aplicações Next.js multilíngues.
+
+### Exemplo
+
+```text
+Book now
+↓
+Agendar agora
+```
+
+---
+
+# 🟠 ETAPA 17 — NODE.JS COMPLETO
+
+Node.js será estudado profundamente para backend e sistemas.
+
+## Básico
+
+* runtime;
+* Node.js;
+* npm;
+* módulos;
+* package.json;
+* filesystem;
+* terminal;
+* environment variables.
+
+## Médio
+
+* HTTP;
+* servidores;
+* routing;
+* middleware;
+* Express/Fastify conforme necessidade;
+* REST APIs;
+* validação;
+* tratamento de erros.
+
+## Avançado
+
+* arquitetura backend;
+* autenticação;
+* autorização;
+* segurança;
+* logging;
+* performance;
+* WebSockets;
+* workers;
+* background jobs;
+* filas;
+* testes;
+* bancos;
+* deploy.
+
+---
+
+# 🔌 ETAPA 18 — REST APIs
+
+* REST;
+* recursos;
+* endpoints;
+* métodos;
+* status codes;
+* headers;
+* autenticação;
+* autorização;
+* validação;
+* paginação;
+* filtros;
+* ordenação;
+* documentação;
+* versionamento;
+* segurança.
+
+---
+
+# 🐘 ETAPA 19 — POSTGRESQL COMPLETO
+
+## Básico
+
+* banco de dados;
+* tabelas;
+* registros;
+* tipos;
+* SQL;
 * SELECT;
 * INSERT;
 * UPDATE;
-* DELETE;
-* primary keys;
-* constraints.
+* DELETE.
 
-## 🟡 Médio
+## Médio
 
-* foreign keys;
+* Primary Key;
+* Foreign Key;
+* relacionamentos;
 * JOIN;
 * GROUP BY;
 * HAVING;
 * subqueries;
-* relationships;
-* normalization;
+* constraints;
+* normalização;
+* índices.
+
+## Avançado
+
+* transações;
+* concorrência;
 * views;
-* transactions.
-
-## 🔴 Avançado
-
-* indexes;
-* EXPLAIN;
-* query planning;
+* funções;
+* procedures quando fizer sentido;
+* índices avançados;
+* query optimization;
 * performance;
-* ACID;
-* isolation;
-* locks;
-* functions;
-* procedures;
-* triggers;
-* roles;
-* permissions;
+* modelagem profissional;
+* segurança;
 * backup;
-* restore.
+* recuperação.
 
-## Integração
+### Objetivo
 
-* Node + PostgreSQL;
-* connection pooling;
+Não apenas saber usar PostgreSQL, mas **saber modelar e trabalhar com bancos reais**.
+
+---
+
+# 🔶 ETAPA 20 — PRISMA / ORM
+
+* ORM;
+* schema;
+* models;
 * migrations;
-* Prisma;
-* ORM.
-
-### Regra
-
-**SQL antes de ORM.**
-
----
-
-# 🏗️ ETAPA 22 — ENGENHARIA DE SOFTWARE
-
-## 🟢
-
-* organização;
-* modularidade;
-* documentação;
-* manutenção;
-* versionamento.
-
-## 🟡
-
-* DRY;
-* KISS;
-* YAGNI;
-* separation of concerns;
-* SOLID.
-
-## 🔴
-
-* Clean Code;
-* design patterns;
-* refactoring;
-* technical debt;
-* escalabilidade;
-* trade-offs;
-* decisões técnicas.
+* relacionamentos;
+* queries;
+* transactions;
+* integração com PostgreSQL;
+* boas práticas.
 
 ---
 
-# 🏛️ ETAPA 23 — ARQUITETURA DE SOFTWARE
-
-## 🟢
-
-* arquitetura;
-* camadas;
-* componentes;
-* serviços.
-
-## 🟡
-
-* frontend architecture;
-* backend architecture;
-* API architecture;
-* database architecture.
-
-## 🔴
-
-* modular architecture;
-* service boundaries;
-* scalability;
-* caching;
-* queues;
-* events;
-* distributed systems — fundamentos.
-
----
-
-# 🔐 ETAPA 24 — AUTENTICAÇÃO E AUTORIZAÇÃO
-
-## 🟢
+# 🔐 ETAPA 21 — AUTENTICAÇÃO + AUTORIZAÇÃO
 
 * cadastro;
 * login;
 * logout;
-* password hashing;
-* sessions.
-
-## 🟡
-
+* sessões;
+* cookies;
+* tokens;
 * JWT;
-* refresh tokens;
+* hash de senha;
 * roles;
 * permissions;
-* protected routes.
-
-## 🔴
-
-* OAuth;
 * recuperação de senha;
-* verificação de e-mail;
-* autorização avançada;
-* segurança de sessões.
+* proteção de rotas;
+* controle de acesso.
 
 ---
 
-# 🛡️ ETAPA 25 — SEGURANÇA DE APLICAÇÕES
+# 🧪 ETAPA 22 — TESTES
 
-Aprofundamento:
+## Básico
 
-* OWASP;
+* testes;
+* testes unitários;
+* testes manuais.
+
+## Médio
+
+* integração;
+* mocks;
+* APIs;
+* componentes.
+
+## Avançado
+
+* End-to-End;
+* cobertura;
+* CI/CD;
+* estratégia de testes;
+* qualidade.
+
+---
+
+# 🛡️ ETAPA 23 — SEGURANÇA
+
+A segurança será estudada como parte permanente do desenvolvimento.
+
+## Básico
+
+* segurança Web;
+* autenticação;
+* autorização;
+* dados;
+* credenciais;
+* secrets.
+
+## Médio
+
 * XSS;
 * CSRF;
 * SQL Injection;
-* SSRF — fundamentos;
-* command injection — fundamentos;
-* path traversal;
-* insecure direct object references;
-* broken access control;
-* rate limiting;
-* brute force;
-* credential attacks;
-* secure headers;
-* input validation;
-* output encoding;
-* secrets management.
-
-### Regra
-
-Nunca aprenderemos ataques para atacar sistemas reais.
-
-Aprenderemos para:
-
-> **identificar, prevenir, testar e corrigir vulnerabilidades em nossos próprios sistemas e ambientes autorizados.**
-
----
-
-# 🔒 ETAPA 26 — SEGURANÇA DE APIs
-
-* authentication;
-* authorization;
-* API keys;
-* tokens;
-* rate limiting;
-* validation;
 * CORS;
-* secure headers;
-* logging;
-* abuse prevention;
-* permissions;
-* API gateways — fundamentos.
+* sessões;
+* validação;
+* rate limiting;
+* cookies seguros.
+
+## Avançado
+
+* OWASP;
+* segurança de APIs;
+* segurança de banco;
+* headers;
+* criptografia aplicada;
+* logs;
+* monitoramento;
+* segurança de infraestrutura;
+* proteção de dados.
+
+> O objetivo é aprender a proteger aplicações e reconhecer vulnerabilidades em ambientes autorizados.
 
 ---
 
-# 🗄️ ETAPA 27 — SEGURANÇA DE DATABASE
+# 🧠 ETAPA 24 — ENGENHARIA DE SOFTWARE
 
-* usuários;
-* roles;
-* permissions;
-* least privilege;
-* SQL injection prevention;
-* secrets;
-* backups;
-* encryption — fundamentos;
-* auditing;
-* migrations seguras.
-
----
-
-# 🧪 ETAPA 28 — TESTES
-
-## 🟢
-
-* unit tests;
-* assertions.
-
-## 🟡
-
-* integration tests;
-* API tests;
-* mocking.
-
-## 🔴
-
-* end-to-end;
-* coverage;
-* test strategy;
-* security testing — fundamentos.
+* Clean Code;
+* SOLID;
+* DRY;
+* KISS;
+* YAGNI;
+* modularização;
+* abstração;
+* separação de responsabilidades;
+* documentação;
+* manutenção;
+* refatoração;
+* qualidade de código;
+* versionamento;
+* code review.
 
 ---
 
-# 🐧 ETAPA 29 — LINUX
+# 🏗️ ETAPA 25 — ARQUITETURA DE SOFTWARE
 
-## 🟢
+## Básico
+
+* estrutura;
+* módulos;
+* camadas;
+* responsabilidades;
+* componentes.
+
+## Médio
+
+* arquitetura modular;
+* frontend/backend;
+* services;
+* repositories;
+* controllers;
+* domínio.
+
+## Avançado
+
+* escalabilidade;
+* sistemas distribuídos;
+* filas;
+* eventos;
+* caching;
+* observabilidade;
+* serviços;
+* decisões arquiteturais;
+* trade-offs.
+
+---
+
+# 🏗️ ETAPA 26 — SYSTEM DESIGN
+
+## Básico
+
+* como sistemas são estruturados;
+* componentes;
+* serviços;
+* APIs;
+* bancos de dados.
+
+## Médio
+
+* escalabilidade;
+* disponibilidade;
+* cache;
+* filas;
+* storage;
+* load balancing;
+* bancos.
+
+## Avançado
+
+* sistemas distribuídos;
+* alta disponibilidade;
+* tolerância a falhas;
+* consistência;
+* escalabilidade horizontal;
+* arquitetura de grandes sistemas;
+* trade-offs;
+* decisões arquiteturais.
+
+---
+
+# ⚡ ETAPA 27 — PERFORMANCE WEB + SISTEMAS
+
+* velocidade de carregamento;
+* otimização de imagens;
+* lazy loading;
+* compressão;
+* cache;
+* otimização de JavaScript;
+* renderização;
+* fontes;
+* performance de APIs;
+* performance de banco de dados;
+* Core Web Vitals;
+* monitoramento de performance.
+
+---
+
+# 🐧 ETAPA 28 — LINUX BÁSICO
 
 * terminal;
-* filesystem;
-* directories;
-* permissions.
-
-## 🟡
-
-* processes;
-* packages;
-* environment;
-* logs.
-
-## 🔴
-
+* arquivos;
+* diretórios;
+* permissões;
+* processos;
+* usuários;
 * SSH;
-* servers;
-* services;
-* troubleshooting;
-* security básica.
+* environment variables;
+* instalação de ferramentas;
+* logs;
+* comandos essenciais.
+
+> Linux será estudado no nível necessário para desenvolvimento, servidores e infraestrutura.
 
 ---
 
-# 🐳 ETAPA 30 — DOCKER
+# 🐳 ETAPA 29 — DOCKER
+
+## Básico
 
 * containers;
-* images;
+* imagens;
 * Dockerfile;
 * volumes;
-* networks;
-* environment;
-* Compose;
-* multi-container;
-* production;
-* security.
+* portas.
+
+## Médio
+
+* Docker Compose;
+* múltiplos serviços;
+* Node.js;
+* PostgreSQL;
+* redes.
+
+## Avançado
+
+* produção;
+* otimização;
+* segurança;
+* ambientes;
+* aplicações reais.
 
 ---
 
-# ☁️ ETAPA 31 — CLOUD + DEPLOY
+# ☁️ ETAPA 30 — CLOUD + DEPLOY + CI/CD
+
+## Básico
 
 * domínio;
 * DNS;
+* hospedagem;
+* servidores;
+* environment variables;
+* deploy;
 * HTTPS;
-* environment;
-* deployment;
+* SSL;
 * logs;
-* backups;
+* backups.
+
+## Médio
+
+* ambientes;
+* staging;
+* produção;
+* integração contínua;
+* entrega contínua.
+
+## Avançado
+
 * CI/CD;
-* cloud fundamentals;
-* monitoring;
-* scaling;
-* custos.
+* escalabilidade;
+* performance;
+* observabilidade;
+* custos;
+* segurança;
+* infraestrutura.
 
 ---
 
-# ⚡ ETAPA 32 — PERFORMANCE
-
-## Frontend
-
-* rendering;
-* JavaScript;
-* images;
-* caching;
-* loading.
-
-## Backend
-
-* API performance;
-* processing;
-* caching.
-
-## Database
-
-* indexes;
-* queries;
-* EXPLAIN.
-
----
-
-# 📊 ETAPA 33 — OBSERVABILIDADE
+# 📊 ETAPA 31 — OBSERVABILIDADE
 
 * logs;
-* metrics;
-* errors;
-* monitoring;
-* tracing — fundamentos;
-* debugging;
-* alerts;
-* incident response.
+* métricas;
+* monitoramento;
+* alertas;
+* erros;
+* uptime;
+* performance;
+* saúde da aplicação;
+* rastreamento de problemas;
+* observabilidade em produção.
+
+```text
+Aplicação
+↓
+Logs + Métricas + Erros
+↓
+Monitoramento
+↓
+Alertas
+↓
+Correção
+```
 
 ---
 
-# 🔗 ETAPA 34 — GRAPHQL
+# 🧠 ETAPA 32 — REDIS + CACHE
 
-> REST será aprendido primeiro.
+## Básico
 
-## 🟢
+* conceito de cache;
+* memória × banco;
+* dados temporários.
 
+## Médio
+
+* Redis;
+* armazenamento;
+* expiração;
+* sessões;
+* cache de API.
+
+## Avançado
+
+* estratégias de cache;
+* invalidação;
+* performance;
+* rate limiting;
+* filas;
+* integração com aplicações.
+
+---
+
+# 🔷 ETAPA 33 — GRAPHQL
+
+* conceitos;
 * queries;
 * mutations;
-* schema;
-* types.
-
-## 🟡
-
+* schemas;
 * resolvers;
-* variables;
-* fragments.
-
-## 🔴
-
-* authentication;
-* caching;
-* performance;
-* architecture;
-* security.
+* tipos;
+* autenticação;
+* integração;
+* quando usar;
+* quando não usar.
 
 ---
 
-# 🐍 ETAPA 35 — PYTHON
+# 🐍 ETAPA 34 — PYTHON COMPLETO PARA IA + AUTOMAÇÃO
 
-Python será usado principalmente para:
+Python complementará Node.js.
 
-* IA;
-* automação;
-* dados;
-* processamento;
-* APIs.
+Node.js continuará sendo importante para o ecossistema Web, enquanto Python terá foco especialmente em IA, dados e automação.
 
-## 🟢
+## Básico
 
-* syntax;
-* variables;
-* types;
-* lists;
-* dictionaries;
+* sintaxe;
+* variáveis;
+* tipos;
+* condicionais;
 * loops;
-* functions.
+* funções;
+* listas;
+* dicionários;
+* módulos;
+* arquivos.
 
-## 🟡
+## Médio
 
-* modules;
-* packages;
-* exceptions;
-* files;
-* OOP;
-* virtual environments.
-
-## 🔴
-
+* orientação a objetos;
+* exceções;
+* pacotes;
+* ambientes virtuais;
 * APIs;
+* automação;
+* processamento de dados.
+
+## Avançado
+
 * FastAPI;
-* automation;
-* data processing;
-* IA.
+* APIs;
+* automação avançada;
+* dados;
+* aplicações de IA;
+* serviços especializados.
 
 ---
 
-# 🤖 ETAPA 36 — IA PROFISSIONAL
+# 🤖 TRILHA DE IA — DESDE O ANO 1
 
-## 🟢
+A IA será estudada paralelamente desde o começo.
 
-* LLM APIs;
+## Ano 1 — aproximadamente 1 hora por semana
+
+### Básico
+
+* o que é IA;
+* Machine Learning — conceito;
+* Deep Learning — conceito;
+* LLMs;
 * prompting;
-* structured output;
-* multimodal;
-* tokens;
-* context.
+* contexto;
+* limitações;
+* uso responsável;
+* IA para programação;
+* IA para produtividade;
+* APIs de IA.
 
-## 🟡
+### Prática
+
+* usar IA para estudar;
+* analisar código;
+* documentar;
+* pesquisar;
+* criar pequenas automações;
+* integrar APIs.
+
+> IA será uma ferramenta de apoio, mas os fundamentos de programação continuam obrigatórios.
+
+---
+
+# 🧠 ETAPA 35 — MACHINE LEARNING
+
+## Fundamentos
+
+* o que é Machine Learning;
+* dados;
+* features;
+* labels;
+* treinamento;
+* validação;
+* teste;
+* modelos;
+* classificação;
+* regressão;
+* clustering.
+
+## Matemática aplicada
+
+Não será necessário estudar matemática universitária inteira.
+
+A matemática será aprendida conforme a necessidade:
+
+* álgebra básica;
+* funções;
+* estatística;
+* probabilidade;
+* médias;
+* variância;
+* correlação;
+* matrizes em nível aplicado;
+* vetores;
+* conceitos de cálculo quando necessário.
+
+### Objetivo
+
+Entender **como modelos aprendem com dados**, e não apenas chamar uma API de IA.
+
+---
+
+# 📚 ETAPA 36 — RAG + EMBEDDINGS + VECTOR DATABASES
 
 * embeddings;
 * vector databases;
-* tools;
-* function calling;
-* memory;
-* workflows.
-
-## 🔴
-
-* agents;
-* orchestration;
-* evaluation;
-* observability;
-* security;
-* cost control;
-* production AI.
+* chunking;
+* recuperação;
+* contexto;
+* documentos;
+* pipelines;
+* avaliação;
+* segurança;
+* qualidade das respostas.
 
 ---
 
-# 📚 ETAPA 37 — RAG
+# 🧰 ETAPA 37 — TOOLS + FUNCTION CALLING
+
+* ferramentas;
+* funções;
+* APIs;
+* ações;
+* parâmetros;
+* validação;
+* resultados;
+* controle de permissões;
+* tratamento de erros.
+
+---
+
+# 🤖 ETAPA 38 — AGENTS
+
+* agentes;
+* objetivos;
+* planejamento;
+* ferramentas;
+* memória;
+* contexto;
+* workflows;
+* avaliação;
+* segurança.
+
+---
+
+# 🧠 ETAPA 39 — MULTI-AGENT
+
+Aprender sistemas em que diferentes agentes ou processos especializados colaboram.
 
 ```text
-Documentos
- ↓
-Processamento
- ↓
-Chunking
- ↓
-Embeddings
- ↓
-Vector Database
- ↓
-Retrieval
- ↓
-Contexto
- ↓
-LLM
- ↓
-Resposta
+                 SISTEMA
+                    │
+               SUPERVISOR
+                    │
+       ┌────────────┼────────────┐
+       ↓            ↓            ↓
+   Pesquisa       Análise      Execução
+    Agente         Agente        Agente
+       │            │            │
+       └────────────┼────────────┘
+                    ↓
+               Verificação
+                    ↓
+                 Resultado
 ```
 
-### Projeto
+Estudar:
 
-Criar um sistema que responda perguntas usando documentos próprios.
+* agentes especializados;
+* coordenação;
+* comunicação;
+* supervisão;
+* ferramentas;
+* memória;
+* contexto;
+* tarefas paralelas;
+* validação;
+* limites;
+* permissões;
+* segurança;
+* tratamento de falhas.
 
 ---
 
-# 🛠️ ETAPA 38 — TOOLS + FUNCTION CALLING
+# 📬 ETAPA 40 — QUEUES + WORKERS
 
-Aprender sistemas onde a IA pode utilizar ferramentas.
+* queues;
+* jobs;
+* workers;
+* prioridades;
+* retries;
+* dead-letter queues;
+* processamento paralelo;
+* processamento assíncrono;
+* escalabilidade.
+
+---
+
+# ⚙️ ETAPA 41 — BACKGROUND JOBS + SCHEDULED JOBS
+
+Aprender sistemas capazes de continuar executando tarefas sem depender de o usuário permanecer na página ou aplicativo.
+
+## Background Jobs
+
+* tarefas em segundo plano;
+* processamento assíncrono;
+* eventos;
+* notificações;
+* workers;
+* filas.
+
+## Scheduled Jobs
+
+* tarefas programadas;
+* cron;
+* execução periódica;
+* relatórios automáticos;
+* backups;
+* limpeza de dados;
+* notificações;
+* manutenção;
+* automações recorrentes.
+
+### Exemplo
 
 ```text
 Usuário
- ↓
-Agente
- ↓
-Decide usar ferramenta
- ↓
-API / Database / Serviço
- ↓
+↓
+Solicita tarefa
+↓
+Sistema registra Job
+↓
+Queue
+↓
+Worker
+↓
+Processamento
+↓
 Resultado
- ↓
-Agente
- ↓
-Resposta
+↓
+Notificação
 ```
+
+> Isso permite que partes do sistema continuem trabalhando mesmo quando o usuário não está utilizando diretamente a aplicação.
 
 ---
 
-# 🔄 ETAPA 39 — WORKFLOWS
+# 🔄 ETAPA 42 — AUTOMAÇÃO
 
-```text
-Trigger
- ↓
-Step 1
- ↓
-Step 2
- ↓
-Decision
- ↓
-Step 3
- ↓
-Resultado
-```
+## Básico
 
-Aprender:
-
-* eventos;
-* webhooks;
 * APIs;
-* IA;
-* validação;
-* retries;
-* logs.
+* webhooks;
+* triggers;
+* workflows;
+* mensagens automáticas.
 
----
+## Médio
 
-# 🤖 ETAPA 40 — AGENTS
+* integrações;
+* tarefas agendadas;
+* processamento automático;
+* emails;
+* notificações.
 
-* agent loop;
-* planning;
-* tools;
-* memory;
-* context;
-* execution;
-* validation;
-* permissions;
-* error handling.
-
----
-
-# 🤖🤖 ETAPA 41 — MULTI-AGENT
-
-```text
-                    SISTEMA
-                       │
-       ┌───────────────┼───────────────┐
-       ↓               ↓               ↓
-   Agente A         Agente B        Agente C
-   Pesquisa          Análise         Conteúdo
-       │               │               │
-       └───────────────┼───────────────┘
-                       ↓
-                   Agente D
-                   Validação
-                       ↓
-                   Agente E
-                   Execução
-```
-
-Aprender:
-
-* divisão de tarefas;
-* comunicação;
-* paralelismo;
-* dependências;
-* coordenação;
-* validação;
-* segurança;
-* observabilidade;
-* controle de custos.
-
-### Regra
-
-Não usar 5 agentes simplesmente porque é possível.
-
-Primeiro:
-
-```text
-1 agente
- ↓
-2 agentes
- ↓
-multi-agent
-```
-
-Usaremos vários agentes somente quando isso trouxer benefício real.
-
----
-
-# ⚙️ ETAPA 42 — QUEUES + WORKERS + BACKGROUND JOBS
-
-Aprender:
+## Avançado
 
 * queues;
 * workers;
 * background jobs;
-* asynchronous processing;
-* retries;
-* scheduling;
-* events;
-* webhooks;
-* job status;
-* failure handling.
-
-Exemplo:
-
-```text
-Usuário
- ↓
-API
- ↓
-Queue
- ↓
-Worker
- ↓
-Agente
- ↓
-Resultado
- ↓
-Database
- ↓
-Notificação
-```
+* IA + automação;
+* automação empresarial;
+* workflows complexos.
 
 ---
 
-# ⏰ ETAPA 43 — SISTEMAS EM BACKGROUND
+# 📡 ETAPA 43 — WEBHOOKS
 
-Aqui construiremos sistemas capazes de executar tarefas programadas ou disparadas por eventos mesmo quando o usuário não está utilizando a aplicação naquele momento.
+* conceito;
+* eventos;
+* endpoints;
+* validação;
+* segurança;
+* retries;
+* idempotência;
+* processamento;
+* pagamentos;
+* serviços externos;
+* automações.
 
-Exemplo:
+---
 
-```text
-23:00
- ↓
-Scheduler
- ↓
-Job
- ↓
-Worker
- ↓
-Agente
- ↓
-Analisa
- ↓
-Valida
- ↓
-Salva
- ↓
-08:00
- ↓
-Usuário abre o sistema
- ↓
-Resultado pronto
-```
+# 📧 ETAPA 44 — EMAILS + NOTIFICAÇÕES
 
-Possibilidades:
-
-* relatórios automáticos;
-* análise;
-* processamento de documentos;
+* emails transacionais;
+* confirmação de cadastro;
+* recuperação de senha;
+* confirmação de agendamento;
+* lembretes;
 * notificações;
 * mensagens automáticas;
-* tarefas programadas;
-* automações;
-* atualização de dados.
+* templates;
+* filas de envio;
+* processamento em background.
 
 ---
 
-# 🔔 ETAPA 44 — AUTOMAÇÃO
+# 📁 ETAPA 45 — UPLOAD + STORAGE
 
-Integrar:
+* upload de imagens;
+* upload de documentos;
+* validação;
+* tamanho máximo;
+* tipos de arquivo;
+* armazenamento;
+* URLs;
+* segurança;
+* organização;
+* Cloud Storage;
+* exclusão;
+* controle de acesso.
+
+---
+
+# 💳 ETAPA 46 — PAGAMENTOS + ASSINATURAS
+
+* pagamentos online;
+* checkout;
+* planos;
+* assinaturas;
+* cobrança recorrente;
+* invoices;
+* confirmação de pagamento;
+* cancelamento;
+* renovação;
+* controle de status;
+* webhooks;
+* integração com SaaS.
 
 ```text
-Node.js
+Cliente
+↓
+Escolhe plano
+↓
+Checkout
+↓
+Pagamento
+↓
+Webhook
+↓
+Backend
+↓
+Banco de dados
+↓
+Conta liberada
+```
+
+---
+
+# 🔐 ETAPA 47 — PRIVACIDADE + PROTEÇÃO DE DADOS
+
+* princípios de privacidade;
+* proteção de dados;
+* cookies;
+* consentimento;
+* dados pessoais;
+* armazenamento seguro;
+* exclusão de dados;
+* retenção;
+* direitos dos usuários;
+* GDPR em nível prático;
+* privacidade aplicada a aplicações Web.
+
+> O objetivo é desenvolver aplicações respeitando boas práticas de privacidade e proteção de dados.
+
+---
+
+# 📱 ETAPA 48 — APPS — TRILHA EXTRA
+
+Depois de React + TypeScript + APIs:
+
+```text
+React
 +
-Python
+TypeScript
 +
 APIs
 +
-Webhooks
-+
-Queues
-+
-Workers
-+
-IA
-+
-Agents
+Backend
+↓
+React Native
+↓
+Android + iOS
 ```
 
-Projetos:
+Estudar:
 
-* relatórios;
-* mensagens;
-* notificações;
-* documentos;
-* marketing;
-* atendimento;
-* tarefas administrativas.
-
----
-
-# 💻 ETAPA 45 — SAAS
-
-## 🟢
-
-* SaaS;
-* MVP;
-* usuários;
-* dashboard;
-* planos.
-
-## 🟡
-
-* organizations;
-* permissions;
-* subscriptions;
-* onboarding;
+* navegação;
+* componentes;
+* estado;
+* APIs;
+* autenticação;
+* armazenamento local;
+* notificações push;
+* deep links;
+* sincronização;
+* publicação;
+* atualização;
+* monitoramento;
 * analytics.
 
-## 🔴
-
-* multi-tenancy;
-* billing;
-* payments;
-* retention;
-* churn;
-* scalability;
-* security;
-* observability.
+> Apps são uma extensão do conhecimento Web e não substituirão a trilha principal.
 
 ---
 
-# 🏆 ETAPA 46 — SERVICEFLOW
+# 📈 ETAPA 49 — MARKETING DIGITAL
 
-Projeto principal do roadmap.
+## Básico
 
-## Objetivo
+* fundamentos;
+* público;
+* persona;
+* posicionamento;
+* branding;
+* conteúdo;
+* canais.
 
-Construir uma plataforma SaaS para negócios de serviços.
+## Médio
 
-Possíveis segmentos:
+* funil;
+* conversão;
+* landing pages;
+* copywriting;
+* email marketing;
+* métricas;
+* analytics.
+
+## Avançado
+
+* aquisição;
+* retenção;
+* CRO;
+* automação;
+* marketing para SaaS;
+* marketing para serviços.
+
+---
+
+# 🔎 ETAPA 50 — SEO
+
+## Básico
+
+* palavras-chave;
+* intenção de busca;
+* estrutura;
+* títulos;
+* meta description.
+
+## Médio
+
+* SEO técnico;
+* performance;
+* links;
+* sitemap;
+* robots;
+* dados estruturados.
+
+## Avançado
+
+* estratégia;
+* conteúdo;
+* autoridade;
+* análise;
+* SEO para negócios;
+* SEO para SaaS;
+* SEO internacional.
+
+---
+
+# 📊 ETAPA 51 — ANALYTICS
+
+* métricas;
+* eventos;
+* conversões;
+* funis;
+* comportamento dos usuários;
+* acompanhamento de campanhas;
+* análise de tráfego;
+* métricas de produto;
+* dashboards;
+* análise de resultados.
+
+```text
+Website
+↓
+Analytics
+↓
+Eventos
+↓
+Conversões
+↓
+Marketing
+↓
+Otimização
+```
+
+---
+
+# 📢 ETAPA 52 — TRÁFEGO PAGO
+
+* fundamentos;
+* campanhas;
+* públicos;
+* criativos;
+* landing pages;
+* conversão;
+* orçamento;
+* métricas;
+* CPC;
+* CPM;
+* CTR;
+* CPA;
+* ROAS;
+* testes A/B;
+* remarketing;
+* análise.
+
+### Objetivo
+
+Entender como gerar tráfego e transformar tráfego em resultados.
+
+---
+
+# 💼 ETAPA 53 — CARREIRA INDEPENDENTE
+
+## Básico
+
+* portfólio;
+* GitHub profissional;
+* site profissional;
+* apresentação;
+* currículo;
+* perfil profissional.
+
+## Médio
+
+* freelance;
+* propostas;
+* orçamento;
+* escopo;
+* prazos;
+* reuniões;
+* apresentações;
+* negociação;
+* contratos.
+
+## Avançado
+
+* clientes internacionais;
+* trabalho remoto;
+* consultoria;
+* manutenção;
+* suporte;
+* contratos recorrentes;
+* gestão de clientes;
+* precificação;
+* processos.
+
+---
+
+# 💰 ETAPA 54 — RENDA RECORRENTE
+
+Não depender somente de projetos individuais.
+
+Possíveis serviços:
+
+* manutenção;
+* hospedagem;
+* atualizações;
+* backups;
+* segurança;
+* suporte;
+* SEO;
+* analytics;
+* automações;
+* IA.
+
+```text
+Cliente
+↓
+Projeto inicial
+↓
+Entrega
+↓
+Manutenção
+↓
+Suporte
+↓
+SEO / Marketing
+↓
+Automação
+↓
+Contrato mensal
+```
+
+---
+
+# 🌍 ETAPA 55 — CLIENTES INTERNACIONAIS
+
+* comunicação profissional;
+* reuniões;
+* apresentações;
+* propostas;
+* documentação;
+* negociação;
+* contratos;
+* suporte remoto;
+* fusos horários;
+* sistemas multilíngues;
+* inglês profissional;
+* atendimento internacional.
+
+---
+
+# 🏢 ETAPA 56 — FREELANCE PROFISSIONAL
+
+Serviços possíveis:
+
+* websites;
+* landing pages;
+* e-commerce;
+* sistemas de reservas;
+* dashboards;
+* APIs;
+* integrações;
+* automações;
+* sistemas Full Stack;
+* IA;
+* agents;
+* manutenção;
+* SEO;
+* marketing digital.
+
+---
+
+# 🚀 ETAPA 57 — SAAS
+
+## Básico
+
+* conceito;
+* problema;
+* público;
+* proposta de valor;
+* MVP;
+* usuários.
+
+## Médio
+
+* autenticação;
+* banco;
+* dashboard;
+* planos;
+* pagamentos;
+* assinaturas;
+* emails;
+* métricas.
+
+## Avançado
+
+* multi-tenant;
+* escalabilidade;
+* segurança;
+* billing;
+* analytics;
+* automação;
+* IA;
+* suporte;
+* retenção;
+* crescimento.
+
+---
+
+# 🏢 ETAPA 58 — NEGÓCIOS DIGITAIS
+
+* validação de ideias;
+* pesquisa de mercado;
+* MVP;
+* proposta de valor;
+* aquisição de clientes;
+* retenção;
+* métricas;
+* pricing;
+* recorrência;
+* assinatura;
+* produto próprio;
+* SaaS.
+
+---
+
+# 🏗️ PROJETO PRINCIPAL — SERVICEFLOW
+
+Projeto de referência para aplicar progressivamente o conhecimento.
+
+```text
+Next.js
+↓
+React
+↓
+TypeScript
+↓
+Tailwind CSS
+↓
+Node.js
+↓
+REST API
+↓
+PostgreSQL
+↓
+Prisma
+↓
+Authentication
+↓
+Authorization
+↓
+Security
+↓
+Testing
+↓
+Docker
+↓
+Deploy
+↓
+Emails
+↓
+Notifications
+↓
+Payments
+↓
+Analytics
+↓
+Automation
+↓
+IA
+↓
+Agents
+↓
+SaaS
+```
+
+### Possíveis segmentos
 
 * barbearias;
 * salões;
 * profissionais;
 * limpeza;
-* outros serviços.
+* serviços locais;
+* outros negócios de atendimento.
+
+> O projeto crescerá conforme novas tecnologias forem aprendidas.
 
 ---
 
-# 🎨 SERVICEFLOW — DESIGN
+# 🧪 SISTEMA DE PROJETOS
+
+## Básico
+
+* páginas;
+* componentes;
+* formulários;
+* calculadoras;
+* listas;
+* landing pages.
+
+## Médio
+
+* APIs;
+* dashboards;
+* React;
+* autenticação;
+* aplicações.
+
+## Avançado
+
+* Full Stack;
+* PostgreSQL;
+* segurança;
+* testes;
+* Docker;
+* deploy;
+* IA;
+* automação;
+* pagamentos;
+* analytics.
+
+## Final
+
+Um produto completo:
+
+**SaaS / aplicação Full Stack com IA e automação.**
+
+---
+
+# ⏱️ CRONOGRAMA DE REFERÊNCIA
+
+## 2026 — AGOSTO → DEZEMBRO
+
+### Fundamentos
+
+* Fundamentos da Web;
+* HTML;
+* CSS;
+* JavaScript;
+* integração HTML + CSS + JS;
+* DOM;
+* APIs;
+* JSON;
+* Fetch;
+* Git/GitHub;
+* primeiros projetos.
+
+### IA paralela
+
+* fundamentos;
+* prompting;
+* APIs;
+* uso responsável;
+* produtividade.
+
+---
+
+# 2027 — JANEIRO → DEZEMBRO
+
+## Janeiro → Abril
+
+* Web Design;
+* Figma;
+* Responsive Design;
+* Acessibilidade;
+* Tailwind CSS;
+* React;
+* TypeScript.
+
+## Maio → Agosto
+
+* Next.js;
+* internacionalização;
+* Node.js;
+* REST APIs;
+* PostgreSQL;
+* Prisma;
+* autenticação;
+* autorização;
+* testes;
+* segurança.
+
+## Setembro → Outubro
+
+* Engenharia de Software;
+* Arquitetura;
+* System Design;
+* Performance;
+* Linux;
+* Docker;
+* Cloud;
+* Deploy;
+* CI/CD;
+* Observabilidade;
+* Redis;
+* Cache;
+* GraphQL;
+* Python.
+
+## Novembro → Dezembro
+
+* Machine Learning;
+* matemática aplicada;
+* RAG;
+* embeddings;
+* Vector Databases;
+* Tools;
+* Function Calling;
+* Agents;
+* Multi-Agent;
+* Queues;
+* Workers;
+* Background Jobs;
+* Scheduled Jobs;
+* Webhooks;
+* Automação;
+* Apps;
+* Pagamentos;
+* Analytics;
+* Marketing;
+* SEO;
+* Tráfego Pago;
+* SaaS;
+* ServiceFlow;
+* portfólio;
+* freelance;
+* clientes;
+* renda recorrente.
+
+> Esta divisão é uma referência. Se determinado assunto precisar de mais tempo, ele terá mais tempo. Não avançaremos apenas porque chegou determinada data.
+
+---
+
+# 💼 QUANDO POSSO COMEÇAR A TRABALHAR?
+
+Você **não precisa esperar terminar os dois anos**.
+
+## Primeiras oportunidades
+
+Depois de:
 
 ```text
-Pesquisa
- ↓
-UX
- ↓
-Wireframe
- ↓
-UI
- ↓
-Design System
- ↓
-Protótipo
+HTML
++
+CSS
++
+JavaScript
++
+Responsive Design
++
+Git/GitHub
 ```
 
----
+já será possível construir pequenos projetos e começar um portfólio.
 
-# 💻 SERVICEFLOW — FRONTEND
+## Frontend
+
+Com:
 
 ```text
-Next.js
+HTML
 +
+CSS
++
+JavaScript
++
+DOM
++
+APIs
++
+React
+```
+
+será possível buscar trabalhos frontend mais interessantes.
+
+## Full Stack Junior
+
+Com:
+
+```text
 React
 +
 TypeScript
 +
-Tailwind CSS
-```
-
----
-
-# ⚙️ SERVICEFLOW — BACKEND
-
-```text
+Next.js
++
 Node.js
 +
-REST API
-+
-Authentication
-+
-Authorization
-```
-
----
-
-# 🗄️ SERVICEFLOW — DATABASE
-
-```text
 PostgreSQL
 +
-SQL
+Authentication
+```
+
+você terá uma base muito mais forte para atuar como **Full Stack Junior**.
+
+## Perfil mais completo
+
+Com:
+
+```text
+Full Stack
 +
-Prisma
-```
-
----
-
-# 📅 SERVICEFLOW — FUNCIONALIDADES
-
-* usuários;
-* clientes;
-* profissionais;
-* serviços;
-* disponibilidade;
-* agenda;
-* reservas;
-* dashboard;
-* notificações.
-
----
-
-# 🔐 SERVICEFLOW — SEGURANÇA
-
-O projeto deverá considerar:
-
-* autenticação;
-* autorização;
-* roles;
-* permissions;
-* proteção de dados;
-* validação;
-* segurança de API;
-* segurança de database;
-* secrets;
-* rate limiting;
-* logs;
-* backups;
-* HTTPS.
-
----
-
-# 🤖 SERVICEFLOW — IA
-
-Possibilidades:
-
-* assistente;
-* atendimento;
-* recomendações;
-* análise;
-* automações;
-* agentes;
-* mensagens automáticas.
-
----
-
-# ⚙️ SERVICEFLOW — BACKGROUND
-
-Exemplo:
-
-```text
-Cliente faz reserva
- ↓
-Evento
- ↓
-Sistema registra
- ↓
-Queue
- ↓
-Worker
- ↓
-Agente
- ↓
-Mensagem automática
- ↓
-Lembrete
-```
-
-Outro exemplo:
-
-```text
-Todo dia às 08:00
- ↓
-Scheduler
- ↓
-Worker
- ↓
-Agente analisa agenda
- ↓
-Gera relatório
- ↓
-Salva no PostgreSQL
-```
-
----
-
-# 🧪 SERVICEFLOW — TESTES
-
-* unit;
-* integration;
-* API;
-* end-to-end.
-
----
-
-# ☁️ SERVICEFLOW — INFRAESTRUTURA
-
-* Linux;
-* Docker;
-* Cloud;
-* deploy;
-* logs;
-* monitoring;
-* backups;
-* segurança.
-
----
-
-# 📈 SERVICEFLOW — MARKETING
-
-* landing page;
-* SEO;
-* copywriting;
-* Analytics;
-* CRO;
-* funil;
-* tráfego pago.
-
----
-
-# 🏗️ 47. PROJETOS DO ROADMAP
-
-## Fundamentos
-
-1. Página HTML
-2. Landing page CSS
-3. Layout Flexbox
-4. Layout Grid
-5. Landing page responsiva
-
-## JavaScript
-
-6. Calculadora
-7. Lista de tarefas
-8. Formulário
-9. Carrinho
-10. Aplicação DOM
-11. Aplicação consumindo API
-
-## Design
-
-12. Projeto Figma
-13. Design System
-14. Landing page orientada à conversão
-
-## React / Next
-
-15. Aplicação React
-16. Dashboard
-17. Next.js + TypeScript + Tailwind
-
-## Backend
-
-18. API Node
-19. PostgreSQL
-20. Authentication
-21. Full Stack
-
-## Engenharia
-
-22. Testes
-23. Docker
-24. Deploy
-25. Monitoring
-
-## IA
-
-26. Aplicação com IA
-27. RAG
-28. Tool Calling
-29. Agent
-30. Multi-Agent
-
-## Automação
-
-31. Queue
-32. Worker
-33. Background Job
-34. Automação completa
-
-## Produto
-
-35. SaaS
-36. SERVICEFLOW
-
----
-
-# 💼 48. ENTRADA NO MERCADO
-
-Não é necessário esperar dois anos.
-
-## Aproximadamente 6–9 meses
-
-Dependendo do domínio real:
-
-* websites;
-* landing pages;
-* Web Design;
-* pequenas páginas comerciais;
-* manutenção;
-* freelance inicial.
-
-## Aproximadamente 9–15 meses
-
-Possíveis oportunidades:
-
-* Frontend;
-* JavaScript;
-* React;
-* TypeScript;
-* Next.js;
-* freelance mais avançado.
-
-## Aproximadamente 15–24 meses
-
-Objetivo:
-
-### Junior Full Stack
-
-Com capacidade de trabalhar com:
-
-* Frontend;
-* Backend;
-* APIs;
-* PostgreSQL;
-* Auth;
-* segurança;
-* testes;
-* Docker;
-* Linux;
-* deploy.
-
----
-
-# 🧑‍💻 49. SENIORIDADE
-
-## Iniciante
-
-Aprende fundamentos.
-
-## Junior
-
-Consegue construir aplicações e trabalhar com orientação.
-
-## Pleno
-
-Possui experiência profissional e maior autonomia.
-
-## Senior
-
-Possui experiência profunda, resolve problemas complexos, toma decisões arquiteturais e possui responsabilidade técnica.
-
-### Objetivo do roadmap
-
-Entrar no mercado como **Junior** e evoluir profissionalmente através de experiência real.
-
----
-
-# 🧰 50. STACK FINAL
-
-## Web
-
-* HTML;
-* CSS;
-* JavaScript;
-* TypeScript.
-
-## Frontend
-
-* React;
-* Next.js;
-* Tailwind CSS.
-
-## Backend
-
-* Node.js;
-* REST;
-* GraphQL.
-
-## Database
-
-* PostgreSQL;
-* SQL;
-* Prisma.
-
-## Python
-
-* Python;
-* FastAPI;
-* automação;
-* IA.
-
-## Engenharia
-
-* Git;
-* GitHub;
-* Linux;
-* Docker;
-* Cloud;
-* CI/CD;
-* testes;
-* segurança;
-* observabilidade;
-* performance.
-
-## Design
-
-* Figma;
-* UI;
-* UX;
-* Design Systems;
-* acessibilidade.
-
-## Marketing
-
-* Marketing Digital;
-* Copywriting;
-* SEO;
-* Analytics;
-* CRO;
-* Tráfego Pago.
-
-## IA
-
-* LLM;
-* APIs;
-* embeddings;
-* RAG;
-* tools;
-* function calling;
-* workflows;
-* agents;
-* multi-agent;
-* queues;
-* workers;
-* background jobs;
-* automação.
-
-## Produto
-
-* MVP;
-* SaaS;
-* subscriptions;
-* payments;
-* analytics;
-* multi-tenancy.
-
----
-
-# 📊 51. CONTROLE DE PROGRESSO
-
-```text
-⬜ Não iniciado
-🔄 Em andamento
-🟡 Em revisão
-✅ Concluído
-```
-
-Nenhuma etapa será considerada concluída apenas porque foi lida.
-
-Para marcar como concluída, precisamos considerar:
-
-```text
-Teoria
+Segurança
 +
-Exercícios
+Testes
 +
-Prática
+Docker
 +
-Desafio
+Cloud
 +
-Revisão
-```
-
-Quando apropriado:
-
-```text
+Arquitetura
 +
-Projeto
-```
-
----
-
-# 📚 52. ORGANIZAÇÃO DAS AULAS
-
-Cada área será organizada:
-
-```text
-Básico/
-Médio/
-Avançado/
-```
-
-Exemplo:
-
-```text
-JavaScript/
-│
-├── Básico/
-│   ├── Aula-01/
-│   ├── Aula-02/
-│   └── ...
-│
-├── Médio/
-│   ├── Aula-01/
-│   └── ...
-│
-└── Avançado/
-    ├── Aula-01/
-    └── ...
-```
-
-Cada aula terá seu próprio README quando necessário.
-
----
-
-# 🔄 53. REGRAS DO ROADMAP
-
-### Regra 1
-
-Não pular fundamentos.
-
-### Regra 2
-
-Não estudar tecnologia apenas para aumentar a lista.
-
-### Regra 3
-
-Praticar o que foi aprendido.
-
-### Regra 4
-
-Projetos reais fazem parte do aprendizado.
-
-### Regra 5
-
-Revisar antes de avançar.
-
-### Regra 6
-
-IA começa no Ano 1.
-
-### Regra 7
-
-IA não deve prejudicar os fundamentos.
-
-### Regra 8
-
-HTML → CSS → JavaScript formam o primeiro núcleo.
-
-### Regra 9
-
-DOM vem depois da base de JavaScript.
-
-### Regra 10
-
-APIs vêm depois de entender JavaScript assíncrono e DOM.
-
-### Regra 11
-
-React vem depois dos fundamentos necessários.
-
-### Regra 12
-
-TypeScript vem depois de uma boa base de JavaScript.
-
-### Regra 13
-
-Next.js vem depois de React.
-
-### Regra 14
-
-Tailwind vem depois de CSS.
-
-### Regra 15
-
-SQL vem antes de ORM.
-
-### Regra 16
-
-REST vem antes de GraphQL.
-
-### Regra 17
-
-Segurança será aprendida progressivamente.
-
-### Regra 18
-
-Autenticação não é a mesma coisa que autorização.
-
-### Regra 19
-
-Um agente antes de multi-agent.
-
-### Regra 20
-
-Não utilizar múltiplos agentes sem necessidade.
-
-### Regra 21
-
-Background jobs serão estudados antes de sistemas autônomos complexos.
-
-### Regra 22
-
-Nunca testar ataques contra sistemas sem autorização.
-
-### Regra 23
-
-Experiência real é necessária para chegar a Pleno/Senior.
-
----
-
-# 🔄 54. ATUALIZAÇÃO DO ROADMAP
-
-O roadmap poderá evoluir porque tecnologia muda.
-
-Antes de adicionar uma nova tecnologia:
-
-1. É necessária?
-2. Qual problema resolve?
-3. O que acrescenta?
-4. Onde entra?
-5. Existe algo que deve ser removido?
-6. É compatível com o objetivo de aproximadamente 2 anos?
-
-Somente depois de revisar fazemos uma nova versão.
-
----
-
-# 🏁 55. RESULTADO FINAL
-
-Ao completar o roadmap, o objetivo é conseguir:
-
-### Criar
-
-* websites;
-* landing pages;
-* interfaces;
-* aplicações frontend;
-* dashboards;
-* APIs;
-* sistemas Full Stack;
-* sistemas autenticados;
-* sistemas seguros;
-* aplicações com PostgreSQL;
-* aplicações com IA;
-* agentes;
-* sistemas multiagentes;
-* automações;
-* SaaS.
-
-### Projetar
-
-* UX;
-* UI;
-* Design Systems;
-* interfaces;
-* produtos digitais.
-
-### Divulgar
-
-* SEO;
-* Marketing;
-* tráfego pago;
-* Analytics;
-* CRO.
-
-### Proteger
-
-```text
-Frontend
- ↓
-API
- ↓
-Backend
- ↓
-Database
- ↓
-Infraestrutura
-```
-
-### Operar
-
-* Linux;
-* Docker;
-* Cloud;
-* CI/CD;
-* monitoring;
-* backups.
-
-### Construir sistemas inteligentes
-
-```text
-LLM
- ↓
-Tools
- ↓
-RAG
- ↓
-Agents
- ↓
-Multi-Agent
- ↓
-Queues
- ↓
-Workers
- ↓
-Background Jobs
- ↓
+IA
++
 Automação
 ```
 
+o perfil se torna significativamente mais completo.
+
 ---
 
-# 🏆 PERFIL FINAL
+# 🎯 IMPORTANTE SOBRE SENIORIDADE
+
+Completar um roadmap não transforma automaticamente alguém em Senior.
+
+Senioridade depende de:
+
+* experiência;
+* projetos reais;
+* problemas resolvidos;
+* arquitetura;
+* decisões técnicas;
+* responsabilidade;
+* comunicação;
+* experiência com produção;
+* liderança quando aplicável.
+
+O roadmap prepara a base para entrar no mercado e evoluir profissionalmente.
+
+---
+
+# 💻 MODELO PROFISSIONAL
 
 ```text
-                    FULL STACK
-                        │
-        ┌───────────────┼───────────────┐
-        │               │               │
-   PROGRAMAÇÃO      WEB DESIGN      MARKETING
-        │               │               │
-        └───────────────┼───────────────┘
-                        │
-                  ENGENHARIA
-                        │
-                   ARQUITETURA
-                        │
-                    SEGURANÇA
-                        │
-                        IA
-                        │
-                   AUTOMAÇÃO
-                        │
-                       SAAS
+                    VOCÊ
+                      │
+       ┌──────────────┼──────────────┐
+       ↓              ↓              ↓
+   Freelance       Clientes        Produtos
+       │           recorrentes        │
+       ↓              ↓              ↓
+   Projetos       Manutenção         SaaS
+   Sistemas       Suporte             IA
+   Websites       SEO                 Apps
+   APIs           Automação           Produtos
+```
+
+Possibilidade de trabalhar:
+
+* remotamente;
+* por projeto;
+* por contrato;
+* por manutenção;
+* por assinatura;
+* para clientes locais;
+* para clientes internacionais;
+* com produtos próprios.
+
+---
+
+# 🧭 PRINCÍPIOS DO ROADMAP 2.4
+
+### 1. Fundamentos primeiro
+
+### 2. Uma etapa principal por vez
+
+### 3. Teoria + prática
+
+### 4. Projetos reais
+
+### 5. IA desde o Ano 1
+
+### 6. Segurança durante todo o desenvolvimento
+
+### 7. Web Design faz parte da formação
+
+### 8. Marketing Digital faz parte da formação
+
+### 9. Não aprender tecnologia apenas por moda
+
+### 10. Programação continua sendo o núcleo técnico
+
+### 11. Apps são uma extensão, não uma distração
+
+### 12. Python complementa Node.js
+
+### 13. PostgreSQL será estudado profundamente
+
+### 14. Node.js será estudado profundamente
+
+### 15. O objetivo final é construir soluções reais
+
+### 16. O roadmap não deve virar um catálogo infinito de tecnologias
+
+---
+
+# 🔄 CONTROLE DE VERSÃO
+
+O arquivo oficial é:
+
+```text
+ROADMAP.md
+```
+
+A versão oficial atual é:
+
+**Roadmap Full Stack 2.4**
+
+Novas versões somente quando existir uma mudança realmente importante.
+
+Pequenas adaptações na ordem durante os estudos **não significam que o roadmap mudou**.
+
+O GitHub manterá o histórico através dos commits.
+
+---
+
+# 🏆 RESULTADO ESPERADO
+
+Ao concluir o roadmap com prática real, o objetivo é possuir um perfil composto por:
+
+```text
+FULL STACK DEVELOPMENT
++
+WEB DESIGN
++
+UI/UX
++
+MARKETING DIGITAL
++
+SEO
++
+TRÁFEGO PAGO
++
+IA
++
+MACHINE LEARNING — FUNDAMENTOS
++
+AUTOMAÇÃO
++
+AGENTS
++
+MULTI-AGENT
++
+SEGURANÇA
++
+ENGENHARIA DE SOFTWARE
++
+ARQUITETURA
++
+SYSTEM DESIGN
++
+LINUX
++
+DOCKER
++
+CLOUD
++
+SAAS
++
+FREELANCE
++
+VISÃO DE NEGÓCIO
+```
+
+### Prioridade
+
+**PROFUNDIDADE**
+
+Full Stack + Engenharia + Backend + Banco de Dados
+
+**COMPLEMENTO**
+
+Web Design + UI/UX + Marketing + SEO + Tráfego Pago
+
+**ESPECIALIZAÇÃO**
+
+Python + IA + Automação + Agents
+
+**NEGÓCIO**
+
+Freelance + Clientes + Recorrência + Produtos + SaaS
+
+---
+
+# 🚀 VISÃO FINAL
+
+```text
+APRENDER
+   ↓
+PRATICAR
+   ↓
+CONSTRUIR
+   ↓
+PUBLICAR
+   ↓
+CRIAR PORTFÓLIO
+   ↓
+CONSEGUIR CLIENTES
+   ↓
+PRESTAR SERVIÇOS
+   ↓
+CRIAR RENDA RECORRENTE
+   ↓
+CRIAR PRODUTOS
+   ↓
+CRIAR SAAS
+   ↓
+CONSTRUIR UM NEGÓCIO DIGITAL
 ```
 
 ---
 
-# 🎯 PRINCÍPIO FINAL
+# ✅ CHECKLIST FINAL
 
-> **APRENDER → PRATICAR → CONSTRUIR → REVISAR → CORRIGIR → APLICAR**
+## Web
 
-Não estudar apenas para saber.
+* [x] Fundamentos da Web
+* [x] HTML
+* [x] CSS
+* [x] JavaScript
+* [x] HTML + CSS + JavaScript
+* [x] DOM
+* [x] APIs
+* [x] JSON
+* [x] Fetch
+* [x] Git
+* [x] GitHub
 
-Estudar para conseguir construir.
+## Design
 
-Não esperar terminar dois anos para procurar trabalho.
+* [x] Web Design
+* [x] UI/UX
+* [x] Figma
+* [x] Responsive Design
+* [x] Acessibilidade
+* [x] WCAG
+* [x] Tailwind CSS
 
-Começar quando houver capacidade real de entregar valor.
+## Frontend
 
-Não estudar IA somente no final.
+* [x] React
+* [x] TypeScript
+* [x] Next.js
+* [x] Internacionalização
+* [x] Localização
+* [x] SEO
+* [x] Performance
+* [x] Core Web Vitals
 
-Acompanhar IA desde o primeiro ano e aprofundar quando a base técnica permitir.
+## Backend
 
-Não aprender segurança somente depois de sofrer um problema.
+* [x] Node.js completo
+* [x] REST APIs
+* [x] Webhooks
+* [x] Autenticação
+* [x] Autorização
+* [x] Emails
+* [x] Notificações
+* [x] Upload
+* [x] Storage
+* [x] Pagamentos
+* [x] Assinaturas
 
-Construir aplicações pensando em segurança desde o início.
+## Banco de Dados
+
+* [x] PostgreSQL completo
+* [x] SQL
+* [x] Relacionamentos
+* [x] Índices
+* [x] Transações
+* [x] Performance
+* [x] Backup
+* [x] Prisma / ORM
+* [x] Redis
+* [x] Cache
+
+## Engenharia
+
+* [x] Testes
+* [x] Clean Code
+* [x] SOLID
+* [x] Arquitetura
+* [x] System Design
+* [x] Performance
+* [x] Observabilidade
+* [x] Logs
+* [x] Monitoramento
+
+## Segurança
+
+* [x] Segurança Web
+* [x] OWASP
+* [x] XSS
+* [x] CSRF
+* [x] SQL Injection
+* [x] CORS
+* [x] Rate Limiting
+* [x] Cookies seguros
+* [x] Segurança de APIs
+* [x] Segurança de banco
+* [x] Privacidade
+* [x] GDPR
+
+## Infraestrutura
+
+* [x] Linux básico
+* [x] Docker
+* [x] Docker Compose
+* [x] Cloud
+* [x] Deploy
+* [x] HTTPS
+* [x] CI/CD
+* [x] Staging
+* [x] Produção
+
+## IA
+
+* [x] IA desde o Ano 1
+* [x] LLMs
+* [x] Prompting
+* [x] APIs de IA
+* [x] Machine Learning
+* [x] Matemática aplicada
+* [x] RAG
+* [x] Embeddings
+* [x] Vector Databases
+* [x] Tools
+* [x] Function Calling
+* [x] Agents
+* [x] Multi-Agent
+
+## Automação
+
+* [x] APIs
+* [x] Webhooks
+* [x] Triggers
+* [x] Workflows
+* [x] Queues
+* [x] Workers
+* [x] Background Jobs
+* [x] Scheduled Jobs
+* [x] Processamento assíncrono
+* [x] Automação empresarial
+* [x] IA + Automação
+
+## Apps
+
+* [x] React Native — trilha extra
+* [x] Android
+* [x] iOS
+* [x] APIs
+* [x] Autenticação
+* [x] Notificações
+* [x] Storage
+* [x] Publicação
+* [x] Analytics
+
+## Marketing
+
+* [x] Marketing Digital
+* [x] Branding
+* [x] Conteúdo
+* [x] Funil
+* [x] Copywriting
+* [x] Email Marketing
+* [x] SEO
+* [x] Analytics
+* [x] CRO
+* [x] Tráfego Pago
+* [x] CPC
+* [x] CPM
+* [x] CTR
+* [x] CPA
+* [x] ROAS
+* [x] Remarketing
+* [x] Testes A/B
+
+## Negócios
+
+* [x] Freelance
+* [x] Portfólio
+* [x] Clientes internacionais
+* [x] Trabalho remoto
+* [x] Propostas
+* [x] Orçamentos
+* [x] Contratos
+* [x] Negociação
+* [x] Consultoria
+* [x] Manutenção
+* [x] Suporte
+* [x] Renda recorrente
+* [x] Produtos próprios
+* [x] SaaS
+* [x] Multi-tenant
+* [x] Pricing
+* [x] Retenção
+* [x] Crescimento
+
+## Projetos
+
+* [x] Exercícios reais
+* [x] CodePen
+* [x] Projetos pequenos
+* [x] Projetos médios
+* [x] Projetos Full Stack
+* [x] Projetos com IA
+* [x] Projetos com automação
+* [x] ServiceFlow
+* [x] Portfólio profissional
+* [x] Produto SaaS
 
 ---
 
-# ✅ STATUS DO ROADMAP 2.3
+# 🏁 STATUS FINAL
 
-**HTML:** ✅ incluído
-**CSS:** ✅ incluído
-**JavaScript:** ✅ incluído
-**HTML + CSS + JS:** ✅ incluído
-**DOM:** ✅ incluído
-**JSON + Fetch + APIs:** ✅ incluído
-**Git/GitHub:** ✅ incluído
-**Web Design:** ✅ incluído
-**Figma:** ✅ incluído
-**Marketing Digital:** ✅ incluído
-**SEO:** ✅ incluído
-**Tráfego Pago:** ✅ incluído
-**Tailwind CSS:** ✅ incluído
-**React:** ✅ incluído
-**TypeScript:** ✅ incluído
-**Next.js:** ✅ incluído
-**Node.js:** ✅ incluído
-**PostgreSQL completo:** ✅ incluído
-**Engenharia de Software:** ✅ incluída
-**Arquitetura:** ✅ incluída
-**Autenticação:** ✅ incluída
-**Autorização:** ✅ incluída
-**Segurança:** ✅ incluída
-**Segurança de clientes e dados:** ✅ incluída
-**Linux:** ✅ incluído
-**Docker:** ✅ incluído
-**Cloud:** ✅ incluído
-**Testes:** ✅ incluídos
-**Performance:** ✅ incluída
-**Observabilidade:** ✅ incluída
-**GraphQL:** ✅ incluído
-**Python:** ✅ incluído
-**IA desde o Ano 1:** ✅ incluída
-**RAG:** ✅ incluído
-**Tools:** ✅ incluído
-**Function Calling:** ✅ incluído
-**Agents:** ✅ incluído
-**Multi-Agent:** ✅ incluído
-**Queues:** ✅ incluídas
-**Workers:** ✅ incluídos
-**Background Jobs:** ✅ incluídos
-**Mensagens automáticas:** ✅ incluídas
-**Automação:** ✅ incluída
-**SaaS:** ✅ incluído
-**ServiceFlow:** ✅ incluído
-**Exercícios reais:** ✅ incluídos
-**CodePen:** ✅ incluído
-**Projetos:** ✅ incluídos
-**Básico → Médio → Avançado:** ✅ mantido
-**Possibilidade de trabalhar antes dos 2 anos:** ✅ mantida
+## ROADMAP FULL STACK 2.4 — OFICIAL
 
----
+**Estado:** organizado, revisado e consolidado.
 
-# 🚀 ROADMAP FULL STACK 2.3
+A partir daqui:
 
-### Full Stack
+**não precisamos continuar adicionando tecnologias ao roadmap a cada conversa.**
 
-### Web Design
+Durante os estudos, podemos:
 
-### UI/UX
+* aprofundar um assunto;
+* criar exercícios;
+* corrigir exercícios;
+* criar desafios;
+* construir projetos;
+* revisar;
+* fazer avaliações;
+* ajustar a velocidade;
+* atualizar uma etapa quando realmente necessário.
 
-### Marketing Digital
+Mas a estrutura principal permanece:
 
-### SEO
-
-### Tráfego Pago
-
-### JavaScript
-
-### TypeScript
-
-### React
-
-### Next.js
-
-### Tailwind CSS
-
-### Node.js
-
-### PostgreSQL
-
-### Engenharia
-
-### Arquitetura
-
-### Segurança
-
-### Linux
-
-### Docker
-
-### Cloud
-
-### Python
-
-### IA
-
-### RAG
-
-### Agents
-
-### Multi-Agent
-
-### Background Jobs
-
-### Automação
-
-### SaaS
-
-## Projeto final: SERVICEFLOW
-
-**Planejamento:** aproximadamente 2 anos
-**IA:** desde o Ano 1
-**Segurança:** desde o Ano 1 e aprofundada no Ano 2
-**Prática:** durante todo o percurso
-**Estrutura:** Básico → Médio → Avançado
-**Objetivo:** capacidade profissional + portfólio + entrada no mercado
+**Fundamentos → Web → Frontend → Full Stack → Banco → Engenharia → Infraestrutura → IA → Automação → Apps → Marketing → Negócios → SaaS.**
