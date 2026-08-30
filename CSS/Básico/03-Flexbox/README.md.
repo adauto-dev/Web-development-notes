@@ -1,34 +1,67 @@
-# CSS — FLEXBOX BÁSICO
 
-## 📚 Teoria + Mapa Visual + Exercícios + Cronograma
+# CSS Básico — Flexbox
+
+## 🎯 Objetivo
+
+Aprender os fundamentos do **Flexbox** para organizar, alinhar, distribuir e dimensionar elementos dentro de um container.
+
+Neste nível, o foco é entender:
+
+* Flex Container
+* Flex Items
+* Main Axis
+* Cross Axis
+* direção dos eixos
+* alinhamento
+* distribuição de espaço
+* quebra de linha
+* crescimento
+* encolhimento
+* tamanho-base
 
 ---
 
-# 🎯 Objetivo da aula
-
-Aprender a entender o Flexbox visualmente, sem depender apenas de decorar nomes de propriedades.
-
-A regra principal será:
-
-> **Primeiro descubra o Main Axis. Depois escolha a propriedade.**
-
----
-
-# 🧠 1. O que é Flexbox?
-
-Flexbox é um sistema de layout do CSS usado para organizar elementos dentro de um container.
-
-Temos:
+# 🗺️ Mapa do Flexbox Básico
 
 ```text
-CONTAINER
-    │
-    ├── ITEM 1
-    ├── ITEM 2
-    └── ITEM 3
+                    FLEXBOX
+                       │
+                       ▼
+                display: flex
+                       │
+                       ▼
+                flex-direction
+                       │
+              ┌────────┴────────┐
+              ▼                 ▼
+             ROW             COLUMN
+              │                 │
+              └────────┬────────┘
+                       ▼
+                  MAIN AXIS
+                       │
+                justify-content
+                       │
+                       ▼
+                  CROSS AXIS
+                       │
+                   align-items
+                       │
+                       ▼
+                      gap
+                       │
+                       ▼
+                  flex-wrap
+                       │
+                       ▼
+                 align-content
 ```
 
-O elemento com:
+---
+
+# 01 — Flex Container e Flex Items
+
+Para ativar o Flexbox:
 
 ```css
 .container {
@@ -36,23 +69,28 @@ O elemento com:
 }
 ```
 
-é o **Flex Container**.
+O elemento com `display: flex` se torna o **Flex Container**.
 
-Os filhos diretos são os **Flex Items**.
+Os seus filhos diretos se tornam **Flex Items**.
+
+```text
+┌────────────────────────────────┐
+│        FLEX CONTAINER           │
+│                                │
+│   [ ITEM ] [ ITEM ] [ ITEM ]   │
+│                                │
+└────────────────────────────────┘
+```
 
 ---
 
-# 🧭 2. Main Axis e Cross Axis
+# 02 — `flex-direction`
 
-Antes de usar qualquer propriedade, descubra:
+Define a direção do **Main Axis**.
 
-> **Qual é o Main Axis?**
+## `row`
 
-Isso depende do `flex-direction`.
-
----
-
-## `flex-direction: row`
+É o valor padrão.
 
 ```css
 .container {
@@ -61,31 +99,39 @@ Isso depende do `flex-direction`.
 }
 ```
 
-Visualmente:
-
 ```text
-┌─────────────────────────────────────────┐
-│                                         │
-│ [ 1 ]  [ 2 ]  [ 3 ]                    │
-│   →      →      →                      │
-│                                         │
-└─────────────────────────────────────────┘
+[1] [2] [3]
 
-MAIN AXIS
-→ → → → → → → → →
+→ → → → →
+   MAIN AXIS
 ```
 
-### Regra
+Com `row`:
 
 ```text
-row
-→ Main Axis = horizontal
-→ Cross Axis = vertical
+Main Axis  → horizontal
+Cross Axis → vertical
 ```
+
+### Importante
+
+Depois de:
+
+```css
+display: flex;
+```
+
+o padrão já é:
+
+```css
+flex-direction: row;
+```
+
+Por isso, escrever `row` novamente não é obrigatório quando queremos o comportamento padrão.
 
 ---
 
-## `flex-direction: column`
+## `column`
 
 ```css
 .container {
@@ -94,250 +140,265 @@ row
 }
 ```
 
-Visualmente:
-
 ```text
-┌──────────────────┐
-│      [ 1 ]       │
-│        ↓         │
-│      [ 2 ]       │
-│        ↓         │
-│      [ 3 ]       │
-│                  │
-└──────────────────┘
-
-MAIN AXIS
-    ↓
-    ↓
-    ↓
-```
-
-### Regra
-
-```text
-column
-→ Main Axis = vertical
-→ Cross Axis = horizontal
-```
-
----
-
-# 🧭 3. MAPA VISUAL DO FLEXBOX
-
-## `flex-direction`
-
-```text
-row
-→ → → → →
-esquerda → direita
-
-column
-↓
-↓
-↓
-cima → baixo
-```
-
----
-
-# ↔️ 4. `justify-content`
-
-### Pergunta:
-
-> **Para onde quero levar os elementos no Main Axis?**
-
----
-
-## `flex-start`
-
-```text
-┌────────────────────────────────────────┐
-│ [1] [2] [3]                            │
-│  ↑                                     │
-│ COMEÇO                                 │
-└────────────────────────────────────────┘
-```
-
-Com `row`:
-
-```text
-COMEÇO = esquerda
+[1]
+ ↓
+[2]
+ ↓
+[3]
 ```
 
 Com `column`:
 
 ```text
-COMEÇO = cima
+Main Axis  → vertical
+Cross Axis → horizontal
+```
+
+---
+
+# 03 — Main Axis e Cross Axis
+
+Essa é uma das partes mais importantes do Flexbox.
+
+## Com `row`
+
+```text
+MAIN AXIS
+→ → → → → → →
+
+┌────────────────────────────┐
+│                            │
+│                            │
+└────────────────────────────┘
+
+CROSS AXIS
+↑
+│
+│
+↓
+```
+
+## Com `column`
+
+```text
+CROSS AXIS
+←────────────────→
+
+┌────────────────────────────┐
+│             │              │
+│             ↓              │
+│         MAIN AXIS          │
+│             ↓              │
+│             ↓              │
+└────────────────────────────┘
+```
+
+### ⭐ Regra de ouro
+
+Não pense:
+
+```text
+justify-content = horizontal
+```
+
+Pense:
+
+```text
+justify-content
+       ↓
+   MAIN AXIS
+```
+
+E:
+
+```text
+align-items
+       ↓
+  CROSS AXIS
+```
+
+O `flex-direction` determina a direção desses eixos.
+
+---
+
+# 04 — `justify-content`
+
+Controla a distribuição dos Flex Items no **Main Axis**.
+
+## `flex-start`
+
+```css
+justify-content: flex-start;
+```
+
+Coloca os itens no início do Main Axis.
+
+```text
+[1] [2] [3]
 ```
 
 ---
 
 ## `center`
 
+```css
+justify-content: center;
+```
+
+Centraliza os itens no Main Axis.
+
 ```text
-┌────────────────────────────────────────┐
-│                                        │
-│              [1] [2] [3]              │
-│                    ↑                   │
-│                  CENTRO                │
-│                                        │
-└────────────────────────────────────────┘
+       [1] [2] [3]
 ```
 
 ---
 
 ## `flex-end`
 
+```css
+justify-content: flex-end;
+```
+
+Coloca os itens no final do Main Axis.
+
 ```text
-┌────────────────────────────────────────┐
-│                          [1] [2] [3]  │
-│                                  ↑     │
-│                                  FIM   │
-└────────────────────────────────────────┘
+               [1] [2] [3]
+```
+
+---
+
+## Distribuição de espaço
+
+Também conhecemos:
+
+```css
+justify-content: space-between;
+justify-content: space-around;
+justify-content: space-evenly;
+```
+
+### `space-between`
+
+```text
+[1]          [2]          [3]
+```
+
+Distribui o espaço entre os itens.
+
+### `space-around`
+
+Cria espaço ao redor dos itens.
+
+### `space-evenly`
+
+Distribui o espaço de maneira uniforme.
+
+---
+
+# 05 — `align-items`
+
+Controla o alinhamento dos Flex Items no **Cross Axis**.
+
+```css
+align-items: flex-start;
+align-items: center;
+align-items: flex-end;
 ```
 
 Com `row`:
 
 ```text
-flex-end = direita
+flex-start → cima
+center     → centro
+flex-end   → baixo
 ```
 
 Com `column`:
 
 ```text
-flex-end = baixo
+flex-start → esquerda
+center     → centro
+flex-end   → direita
 ```
 
----
-
-# ↕️ 5. `align-items`
-
-### Pergunta:
-
-> **Como quero alinhar os itens no Cross Axis?**
-
-Com `row`:
+### ⭐ Regra
 
 ```text
-MAIN AXIS
-→ → → → →
+justify-content → Main Axis
 
-CROSS AXIS
-↓
-↓
-↓
+align-items → Cross Axis
 ```
 
 ---
 
-## `align-items: flex-start`
+# 06 — `justify-content` + `align-items`
 
-```text
-┌──────────────────────────────┐
-│ [1] [2] [3]                  │ ← COMEÇO
-│                              │
-│                              │
-│                              │
-└──────────────────────────────┘
-```
-
----
-
-## `align-items: center`
-
-```text
-┌──────────────────────────────┐
-│                              │
-│                              │
-│ [1] [2] [3]                  │ ← CENTRO
-│                              │
-│                              │
-└──────────────────────────────┘
-```
-
----
-
-## `align-items: flex-end`
-
-```text
-┌──────────────────────────────┐
-│                              │
-│                              │
-│                              │
-│ [1] [2] [3]                  │ ← FIM
-└──────────────────────────────┘
-```
-
----
-
-# ⭐ 6. `justify-content` + `align-items`
-
-Podemos usar os dois juntos:
+Podemos utilizar as duas propriedades juntas.
 
 ```css
 .container {
   display: flex;
-
   justify-content: center;
   align-items: center;
 }
 ```
 
-Visualmente:
+Com o padrão `row`:
 
 ```text
-┌──────────────────────────────────┐
-│                                  │
-│                                  │
-│             [BOX]                │
-│                                  │
-│                                  │
-└──────────────────────────────────┘
-                 ↑
-               CENTRO
+┌────────────────────────────────┐
+│                                │
+│        [1] [2] [3]             │
+│                                │
+└────────────────────────────────┘
 ```
 
-### Regra visual
+Resultado:
 
 ```text
-justify-content
-→ MAIN AXIS
-
-align-items
-→ CROSS AXIS
+justify-content → centraliza no Main Axis
+align-items     → centraliza no Cross Axis
 ```
 
 ---
 
-# ↔️ 7. `gap`
+# 07 — `gap`
 
-### Pergunta:
-
-> **Quero espaço entre os elementos?**
-
-Use:
+Cria espaço **entre os Flex Items**.
 
 ```css
 .container {
+  display: flex;
   gap: 20px;
 }
 ```
 
-Visualmente:
-
 ```text
-[ BOX 1 ] ← 20px → [ BOX 2 ] ← 20px → [ BOX 3 ]
+[1] ← 20px → [2] ← 20px → [3]
 ```
 
 ### Importante
 
-`gap` não é para mover o grupo para esquerda ou direita.
+`gap` cria espaço **entre os elementos**.
 
-Ele cria **espaço entre os itens**.
+Ele não significa automaticamente:
+
+```text
+borda → 20px → primeiro elemento
+```
+
+nem:
+
+```text
+último elemento → 20px → borda
+```
+
+O espaço criado pelo `gap` é entre os itens.
 
 ---
 
-# 📦 8. `flex-wrap`
+# 08 — `flex-wrap`
 
 Por padrão:
 
@@ -345,135 +406,73 @@ Por padrão:
 flex-wrap: nowrap;
 ```
 
-Os itens tentam ficar na mesma linha.
+Os itens tentam permanecer na mesma linha.
 
-Se não couberem:
-
-```css
-.container {
-  display: flex;
-  flex-wrap: wrap;
-}
-```
-
-Podemos ter:
-
-```text
-┌────────────────────────────┐
-│ [1] [2] [3]               │
-│                            │
-│ [4] [5]                   │
-└────────────────────────────┘
-```
-
-### Regra visual
-
-```text
-NÃO CABE
-   ↓
-QUEBRA
-   ↓
-PRÓXIMA LINHA
-```
-
----
-
-# ↕️ 9. `align-content`
-
-Só começa a ser realmente importante quando temos **mais de uma flex line**.
-
-Normalmente usamos:
+Com:
 
 ```css
 flex-wrap: wrap;
 ```
 
+os itens podem quebrar para outra linha quando não existe espaço suficiente.
+
+```text
+[1] [2] [3]
+[4] [5]
+```
+
+### Visualmente
+
+```text
+container pequeno
+       ↓
+não existe espaço suficiente
+       ↓
+flex-wrap: wrap
+       ↓
+os itens podem criar outra linha
+```
+
+---
+
+# 09 — `align-content`
+
+`align-content` trabalha com a **distribuição das linhas ou colunas** quando temos `flex-wrap` e mais de uma linha ou coluna.
+
 Exemplo:
 
 ```text
-┌────────────────────────────┐
-│                            │
-│ [1] [2]                    │
-│                            │
-│ [3] [4]                    │
-│                            │
-└────────────────────────────┘
+[1] [2]
+[3] [4]
 ```
 
-`align-content` distribui as **linhas** no Cross Axis.
+Podemos controlar a posição dessas linhas dentro do container.
 
-### Diferença
+```css
+align-content: flex-start;
+align-content: center;
+align-content: flex-end;
+```
+
+### Diferença importante
 
 ```text
 align-items
-→ itens dentro da linha
+      ↓
+alinha os itens dentro da linha
 
 align-content
-→ linhas dentro do container
+      ↓
+distribui as linhas dentro do container
 ```
+
+⚠️ `align-content` é especialmente relevante quando existem **múltiplas linhas/colunas**.
 
 ---
 
-# 📏 10. `flex-basis`
+# 10 — `flex-grow`
 
-### Pergunta:
-
-> **Qual é o tamanho-base do item no Main Axis?**
-
-```css
-.primeiro {
-  flex-basis: 200px;
-}
-```
-
-Não memorize:
-
-```text
-basis = largura
-```
-
-Memorize:
-
-```text
-basis = tamanho-base no Main Axis
-```
-
----
-
-## Com `row`
-
-```text
-MAIN AXIS
-→ → → → →
-
-[────── 200px ──────]
-```
-
-`flex-basis` controla principalmente a dimensão horizontal.
-
----
-
-## Com `column`
-
-```text
-MAIN AXIS
-    ↓
-    ↓
-
-[ BOX ]
-   ↕
- 200px
-```
-
-`flex-basis` controla principalmente a dimensão vertical.
-
----
-
-# 📈 11. `flex-grow`
-
-### Pergunta:
-
-> **Sobrou espaço. Quem pode crescer?**
+Controla o crescimento dos Flex Items quando existe **espaço sobrando**.
 
 Exemplo:
 
@@ -487,653 +486,347 @@ Exemplo:
 }
 ```
 
-Visualmente:
-
-```text
-ESPAÇO SOBRANDO
-        ↓
-┌──────────────────────────────────────┐
-│ [ BOX 1 ]      [ BOX 2 ]             │
-└──────────────────────────────────────┘
-       ↑               ↑
-      +1              +2
-```
-
-Proporção:
+A proporção da sobra será:
 
 ```text
 1 : 2
 ```
 
-O segundo recebe uma participação maior no espaço livre.
-
-### Regra
+Portanto:
 
 ```text
-SOBRA ESPAÇO
-     ↓
-flex-grow
-     ↓
-CRESCER
+primeiro → 1 parte
+
+segundo → 2 partes
+```
+
+O segundo recebe o dobro da parte da sobra recebida pelo primeiro.
+
+### Visualmente
+
+```text
+ESPAÇO SOBRANDO
+       ↓
+   flex-grow
+       ↓
+distribuição da sobra
 ```
 
 ---
 
-# 📉 12. `flex-shrink`
+# 11 — `flex-shrink`
 
-### Pergunta:
+Controla o encolhimento dos Flex Items quando **falta espaço**.
 
-> **Faltou espaço. Quem precisa encolher?**
+```text
+ESPAÇO INSUFICIENTE
+        ↓
+   flex-shrink
+        ↓
+   encolhimento
+```
 
 Exemplo:
 
-```text
-Container = 300px
-
-BOX 1 = 200px
-BOX 2 = 200px
-BOX 3 = 200px
-```
-
-Temos:
-
-```text
-600px de conteúdo
-300px de espaço
-```
-
-Não cabe.
-
-```text
-┌────────────────────┐
-│ [1][2][3]          │
-└────────────────────┘
-        ↑
-    NÃO CABE
-```
-
-Então o Flexbox pode reduzir os itens:
-
-```text
-[ BOX 1 ]   [ BOX 2 ]   [ BOX 3 ]
-    ↓           ↓           ↓
- ENCOLHE     ENCOLHE     ENCOLHE
-```
-
-### Regra
-
-```text
-FALTA ESPAÇO
-     ↓
-flex-shrink
-     ↓
-ENCOLHER
-```
-
----
-
-# 🧠 13. Os três juntos
-
-```text
-             FLEX ITEM
-                 │
-                 ↓
-            flex-basis
-                 │
-          TAMANHO-BASE
-                 │
-        ┌────────┴────────┐
-        ↓                 ↓
- SOBRA ESPAÇO         FALTA ESPAÇO
-        ↓                 ↓
-   flex-grow          flex-shrink
-        ↓                 ↓
-     CRESCE            ENCOLHE
-```
-
-### Forma fácil de lembrar
-
-```text
-basis
-→ COMECE COM QUANTO?
-
-grow
-→ SOBROU, QUANTO CRESCE?
-
-shrink
-→ FALTOU, QUANTO ENCOLHE?
-```
-
----
-
-# 🧭 14. MAPA COMPLETO DE DECISÃO
-
-Quando encontrar um problema de Flexbox:
-
-```text
-                 FLEXBOX
-                    ↓
-             É CONTAINER?
-              ↙          ↘
-            SIM           NÃO
-             ↓             ↓
-     propriedades       Flex Item
-      do container          ↓
-             ↓       grow / shrink / basis
-             ↓
-      flex-direction
-             ↓
-     ┌───────┴───────┐
-     ↓               ↓
-    ROW            COLUMN
-     ↓               ↓
-Horizontal         Vertical
-     ↓               ↓
-MAIN AXIS          MAIN AXIS
-     ↓               ↓
-```
-
-Depois pergunte:
-
-```text
-QUERO MOVER NO MAIN AXIS?
-          ↓
-   justify-content
-```
-
-```text
-QUERO ALINHAR NO CROSS AXIS?
-          ↓
-      align-items
-```
-
-```text
-QUERO ESPAÇO ENTRE OS ITENS?
-          ↓
-          gap
-```
-
-```text
-NÃO CABE?
-          ↓
-      flex-wrap
-```
-
-```text
-TEM VÁRIAS LINHAS?
-          ↓
-    align-content
-```
-
-```text
-SOBROU ESPAÇO?
-          ↓
-      flex-grow
-```
-
-```text
-FALTOU ESPAÇO?
-          ↓
-     flex-shrink
-```
-
-```text
-QUERO DEFINIR TAMANHO BASE?
-          ↓
-      flex-basis
-```
-
----
-
-# 🎯 15. MAPA RÁPIDO — ESQUERDA / DIREITA / CIMA / BAIXO
-
-## Com `row`
-
-```text
-                CIMA
-                  ↑
-                  │
-ESQUERDA ←── [ BOX ] ──→ DIREITA
-                  │
-                  ↓
-                BAIXO
-```
-
-```text
-justify-content
-→ esquerda / centro / direita
-
-align-items
-→ cima / centro / baixo
-```
-
----
-
-## Com `column`
-
-```text
-                CIMA
-                  ↑
-                  │
-                  │
-                [BOX]
-                  │
-                  ↓
-                BAIXO
-```
-
-Aqui:
-
-```text
-justify-content
-→ cima / centro / baixo
-
-align-items
-→ esquerda / centro / direita
-```
-
-### ⭐ Atenção
-
-Isso acontece porque `justify-content` sempre segue o **Main Axis**.
-
----
-
-# 📊 16. TABELA VISUAL
-
-| Propriedade       | Pergunta                     | Onde trabalha?     |
-| ----------------- | ---------------------------- | ------------------ |
-| `flex-direction`  | Qual direção?                | Define Main Axis   |
-| `justify-content` | Para onde no eixo principal? | Main Axis          |
-| `align-items`     | Como alinhar no outro eixo?  | Cross Axis         |
-| `gap`             | Quanto espaço entre itens?   | Espaço entre itens |
-| `flex-wrap`       | Pode quebrar?                | Flex lines         |
-| `align-content`   | Como distribuir as linhas?   | Cross Axis         |
-| `flex-grow`       | Sobrou espaço?               | Crescimento        |
-| `flex-shrink`     | Faltou espaço?               | Redução            |
-| `flex-basis`      | Qual tamanho-base?           | Main Axis          |
-
----
-
-# 📚 17. CONTAINER × ITEM
-
-## Container
-
-```text
-.container
-│
-├── display: flex
-├── flex-direction
-├── justify-content
-├── align-items
-├── gap
-├── flex-wrap
-└── align-content
-```
-
-## Flex Item
-
-```text
-.box
-│
-├── flex-grow
-├── flex-shrink
-└── flex-basis
-```
-
----
-
-# 🧪 18. Exercício mental
-
-Antes de escrever código, sempre responda:
-
-### Pergunta 1
-
 ```css
-flex-direction: row;
-```
-
-Main Axis é:
-
-```text
-→ horizontal
-```
-
-### Pergunta 2
-
-```css
-justify-content: flex-end;
-```
-
-Com `row`, os itens vão para:
-
-```text
-→ direita
-```
-
-### Pergunta 3
-
-```css
-align-items: flex-end;
-```
-
-Com `row`, os itens vão para:
-
-```text
-↓ baixo
-```
-
----
-
-# 🧪 19. Exercício mental — `column`
-
-```css
-.container {
-  display: flex;
-  flex-direction: column;
-}
-```
-
-Agora:
-
-```text
-Main Axis
-↓
-```
-
-Então:
-
-```css
-justify-content: flex-end;
-```
-
-significa:
-
-```text
-↓ BAIXO
-```
-
-E:
-
-```css
-align-items: flex-end;
-```
-
-significa:
-
-```text
-→ DIREITA
-```
-
----
-
-# 🧪 20. Exercício de tamanho
-
-```css
-.container {
-  display: flex;
-  flex-direction: row;
-  width: 600px;
-}
-
 .primeiro {
-  flex-basis: 100px;
-  flex-grow: 1;
+  flex-shrink: 1;
 }
 
 .segundo {
-  flex-basis: 200px;
-  flex-grow: 2;
-}
-
-.terceiro {
-  flex-basis: 100px;
+  flex-shrink: 2;
 }
 ```
 
-Primeiro:
+Os valores participam do cálculo de quanto os itens podem encolher.
 
-```text
-100 + 200 + 100
-= 400px
-```
-
-Container:
-
-```text
-600px
-```
-
-Sobram:
-
-```text
-200px
-```
-
-Então:
+### Regra simples
 
 ```text
 flex-grow
-     ↓
-espaço sobrando
-     ↓
-BOX 1 → 1 parte
-BOX 2 → 2 partes
-BOX 3 → 0
+→ espaço sobrando
+→ crescimento
+
+flex-shrink
+→ espaço insuficiente
+→ encolhimento
 ```
 
 ---
 
-# 🧪 21. Exercício de falta de espaço
+# 12 — `flex-basis`
+
+Define o **tamanho-base do Flex Item no Main Axis**.
+
+```css
+.box {
+  flex-basis: 200px;
+}
+```
+
+Exemplo:
+
+```css
+.box {
+  width: 100px;
+  flex-basis: 200px;
+}
+```
+
+No contexto do Flexbox, `flex-basis` fornece o tamanho-base utilizado nos cálculos de flexibilidade no Main Axis.
+
+### Conceito
+
+```text
+             flex-basis
+                 ↓
+            tamanho-base
+                 │
+          ┌──────┴──────┐
+          ↓             ↓
+      flex-grow     flex-shrink
+       crescer       encolher
+```
+
+---
+
+# 13 — Grow × Shrink × Basis
+
+As três propriedades estão relacionadas:
+
+```text
+                 FLEX ITEM
+                     │
+                     ▼
+                flex-basis
+               tamanho-base
+                     │
+             ┌───────┴───────┐
+             ▼               ▼
+         flex-grow       flex-shrink
+             │               │
+             ▼               ▼
+          crescer         encolher
+```
+
+### Resumo
+
+```text
+flex-basis  → tamanho-base
+
+flex-grow   → crescer quando existe sobra
+
+flex-shrink → encolher quando falta espaço
+```
+
+---
+
+# 14 — Propriedades do Container × Item
+
+## Flex Container
+
+As principais propriedades estudadas neste nível:
+
+```text
+display: flex
+flex-direction
+justify-content
+align-items
+gap
+flex-wrap
+align-content
+```
+
+## Flex Items
+
+As principais propriedades estudadas neste nível:
+
+```text
+flex-grow
+flex-shrink
+flex-basis
+```
+
+---
+
+# 🧪 Exercício Final
+
+HTML:
+
+```html
+<div class="container">
+  <div class="box">1</div>
+  <div class="box">2</div>
+  <div class="box">3</div>
+  <div class="box">4</div>
+</div>
+```
+
+CSS:
 
 ```css
 .container {
+  width: 500px;
+  height: 400px;
+  border: 2px solid black;
+
   display: flex;
-  flex-direction: row;
-  width: 300px;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }
 
-.primeiro {
-  flex-basis: 100px;
-}
-
-.segundo {
-  flex-basis: 200px;
-}
-
-.terceiro {
-  flex-basis: 100px;
+.box {
+  width: 100px;
+  height: 60px;
+  border: 2px solid black;
 }
 ```
 
-Total:
+Resultado:
 
 ```text
-100 + 200 + 100
-= 400px
+┌────────────────────────────────────┐
+│                                    │
+│       [1] [2] [3] [4]              │
+│                                    │
+└────────────────────────────────────┘
 ```
 
-Container:
+### O que foi utilizado?
 
 ```text
-300px
+display: flex
+      ↓
+ativa o Flexbox
+
+justify-content: center
+      ↓
+centraliza no Main Axis
+
+align-items: center
+      ↓
+centraliza no Cross Axis
+
+gap: 20px
+      ↓
+cria espaço entre os boxes
 ```
 
-Então:
+---
+
+# 🏆 Desafio Final
+
+O desafio foi criar um layout em que:
+
+* [x] Os elementos ficam em linha
+* [x] Os elementos ficam centralizados horizontalmente
+* [x] Os elementos ficam centralizados verticalmente
+* [x] Existe espaço entre os elementos
+* [x] O layout utiliza Flexbox corretamente
+
+---
+
+# 🧠 Erros corrigidos durante o estudo
+
+## `justify-content` × `align-content`
+
+Uma confusão inicial foi considerar que `align-content` controlava o espaço horizontal entre os itens.
+
+A correção foi:
 
 ```text
-400px de conteúdo
-300px disponíveis
-        ↓
-100px faltando
-        ↓
+justify-content
+      ↓
+Main Axis
+
+
+align-content
+      ↓
+múltiplas linhas/colunas
+```
+
+---
+
+# ⭐ Regras de Ouro
+
+### 1. Ativar Flexbox
+
+```css
+display: flex;
+```
+
+### 2. Definir a direção
+
+```css
+flex-direction: row;
+flex-direction: column;
+```
+
+### 3. Main Axis
+
+```text
+justify-content
+```
+
+### 4. Cross Axis
+
+```text
+align-items
+```
+
+### 5. Espaço entre itens
+
+```text
+gap
+```
+
+### 6. Quebra de linha
+
+```text
+flex-wrap
+```
+
+### 7. Distribuição de múltiplas linhas
+
+```text
+align-content
+```
+
+### 8. Crescimento
+
+```text
+flex-grow
+```
+
+### 9. Encolhimento
+
+```text
 flex-shrink
-        ↓
-redução
 ```
 
----
-
-# 🏆 22. REGRA DE OURO
-
-Nunca comece pensando:
-
-> "Qual propriedade eu tenho que usar?"
-
-Comece pensando:
+### 10. Tamanho-base
 
 ```text
-1. Qual é o container?
-        ↓
-2. Qual é o flex-direction?
-        ↓
-3. Onde está o Main Axis?
-        ↓
-4. Onde está o Cross Axis?
-        ↓
-5. Quero mover ou alinhar?
-        ↓
-6. Existe espaço sobrando ou faltando?
-        ↓
-7. Preciso controlar o tamanho-base?
+flex-basis
 ```
 
 ---
 
-# 🗺️ 23. CRONOGRAMA DO FLEXBOX
+# 📚 Método de estudo
 
-## 🟢 BÁSICO — CONCLUÍDO
-
-```text
-01. display: flex                 ✅
-02. Container × Items             ✅
-03. Main Axis × Cross Axis        ✅
-04. flex-direction                ✅
-05. justify-content               ✅
-06. align-items                   ✅
-07. gap                           ✅
-08. flex-wrap                     ✅
-09. align-content                 ✅
-10. flex-grow                     ✅
-11. flex-shrink                   ✅
-12. flex-basis                    ✅
-13. grow + shrink + basis         ✅
-14. Exercícios                    ✅
-15. Revisão                       ✅
-16. README                        ✅
-```
-
----
-
-# 🟡 INTERMEDIÁRIO — PRÓXIMA ETAPA
-
-```text
-01. flex shorthand
-        ↓
-02. flex: 1
-        ↓
-03. flex: auto
-        ↓
-04. flex: none
-        ↓
-05. flex: initial
-        ↓
-06. grow + shrink + basis
-        ↓
-07. order
-        ↓
-08. align-self
-        ↓
-09. flex-flow
-        ↓
-10. row-reverse
-        ↓
-11. column-reverse
-        ↓
-12. space-between
-        ↓
-13. space-around
-        ↓
-14. space-evenly
-        ↓
-15. baseline
-        ↓
-16. row-gap
-        ↓
-17. column-gap
-        ↓
-18. exercícios combinados
-        ↓
-19. CodePen
-        ↓
-20. desafio
-        ↓
-21. revisão
-        ↓
-22. README
-```
-
----
-
-# 🔴 AVANÇADO
-
-```text
-01. Flexbox + Responsive Design
-        ↓
-02. Flexbox dentro de Flexbox
-        ↓
-03. Containers aninhados
-        ↓
-04. Header profissional
-        ↓
-05. Navbar
-        ↓
-06. Hero Section
-        ↓
-07. Cards
-        ↓
-08. Formulários
-        ↓
-09. margin: auto
-        ↓
-10. overflow
-        ↓
-11. min-width / min-height
-        ↓
-12. conteúdo variável
-        ↓
-13. Flexbox + Media Queries
-        ↓
-14. Flexbox + Grid
-        ↓
-15. quando usar Flexbox × Grid
-        ↓
-16. layouts reais
-        ↓
-17. projeto final
-        ↓
-18. revisão
-        ↓
-19. README
-```
-
----
-
-# 📚 24. MÉTODO DE ESTUDO
-
-Para cada novo assunto:
+Nosso método para cada assunto:
 
 ```text
 TEORIA
    ↓
-DESENHO VISUAL
-   ↓
-EXPLICAÇÃO
+EXPLICAÇÃO VISUAL
    ↓
 EXERCÍCIO GUIADO
    ↓
-CODEPEN
+PRÁTICA
    ↓
-VOCÊ FAZ SOZINHO
+EXERCÍCIO SOZINHO
    ↓
 CORREÇÃO
    ↓
@@ -1144,63 +837,67 @@ REVISÃO
 README
 ```
 
-### Regra do professor
+---
 
-> **Não avançamos simplesmente porque você viu a propriedade.**
+# ✅ Checklist — Flexbox Básico
 
-Você precisa conseguir:
-
-```text
-ENTENDER
-   ↓
-EXPLICAR
-   ↓
-PREVER
-   ↓
-ESCREVER
-   ↓
-USAR
-```
+* [x] `display: flex`
+* [x] Flex Container
+* [x] Flex Items
+* [x] `flex-direction`
+* [x] `row`
+* [x] `column`
+* [x] Main Axis
+* [x] Cross Axis
+* [x] `justify-content`
+* [x] `flex-start`
+* [x] `center`
+* [x] `flex-end`
+* [x] `space-between`
+* [x] `space-around`
+* [x] `space-evenly`
+* [x] `align-items`
+* [x] `gap`
+* [x] `flex-wrap`
+* [x] `align-content`
+* [x] `flex-grow`
+* [x] `flex-shrink`
+* [x] `flex-basis`
+* [x] Grow × Shrink × Basis
+* [x] Exercícios
+* [x] Teste de conhecimento
+* [x] Desafio final
+* [x] Revisão
 
 ---
 
-# 🏁 STATUS ATUAL
+# ⏭️ Próximos conteúdos
 
-```text
-CSS
-│
-├── Básico
-│   ├── Box Model              ✅
-│   ├── Responsive Design      ✅ parcial
-│   └── Flexbox                ✅ BÁSICO
-│
-├── Intermediário
-│   └── Flexbox                ⏳ PRÓXIMO
-│
-└── Avançado
-    └── Flexbox                ⏳ FUTURO
-```
+Os seguintes conteúdos **fazem parte do cronograma geral de Flexbox, mas ainda não foram estudados neste nível**:
 
-### Próxima aula
+* [ ] `row-gap`
+* [ ] `column-gap`
+* [ ] `flex`
+* [ ] `align-self`
+* [ ] `order`
+* [ ] `flex-flow`
+* [ ] `row-reverse`
+* [ ] `column-reverse`
+* [ ] distribuição avançada
+* [ ] dimensionamento avançado
+* [ ] problemas comuns
+* [ ] Flexbox avançado
+* [ ] Flexbox na prática
+* [ ] Flexbox + Grid
 
-# 🚀 FLEXBOX INTERMEDIÁRIO — `flex`
+⚠️ Esses conteúdos **não fazem parte do conhecimento concluído deste README**. Eles permanecem no cronograma para serem estudados posteriormente.
 
-Começaremos entendendo:
+---
 
-```css
-flex: 1;
-```
+# 🎓 Status
 
-mas **sem decorar**.
+## FLEXBOX BÁSICO — CONCLUÍDO ✅
 
-Vamos desmontar:
+Conteúdo estudado, praticado, revisado e testado.
 
-```text
-flex
- ↓
-grow
-shrink
-basis
-```
-
-e entender exatamente o que o navegador está fazendo.
+**Próxima etapa:** continuar o cronograma de CSS na ordem planejada.
