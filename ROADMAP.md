@@ -3448,3 +3448,70 @@ A Camada de Aprimoramento define **como o conhecimento será transformado em hab
 
 
 **Fundamentos → Web → Frontend → Full Stack → Banco → Engenharia → Infraestrutura → IA → Automação → Apps → Marketing → Negócios → SaaS.**
+
+## LINHA COMPLEMENTAR — VALIDAÇÃO DO MERCADO E PREPARAÇÃO PARA CLIENTES
+
+**Objetivo:** preparar progressivamente o aluno para conseguir clientes, trabalhar como freelancer, criar fontes de rendimento recorrente e, futuramente, desenvolver o seu próprio negócio digital.
+
+Esta linha acompanha o Roadmap Full Stack 2.4, mas não substitui nem altera a ordem das etapas técnicas oficiais.
+
+### Regras de funcionamento
+
+- Carga complementar: aproximadamente 15–20 minutos por semana, apenas quando houver disponibilidade e energia.
+- A programação continua a ser a prioridade durante as etapas técnicas.
+- Não antecipar conteúdos técnicos nem estudar todo o Marketing Digital antes da etapa prevista.
+- Não avançar por calendário: adaptar as atividades ao progresso real do aluno.
+- Não começar a vender serviços que o aluno ainda não consegue entregar com qualidade.
+- Evitar sobrecarga e não transformar todos os exercícios de programação em projetos comerciais.
+
+### Progressão
+
+**Fase 1 — Observação do mercado (durante as etapas iniciais)**
+
+- Observar pequenos negócios e serviços locais.
+- Identificar problemas concretos na apresentação dos serviços, nos contactos ou na experiência dos clientes.
+- Distinguir problemas reais de simples preferências pessoais.
+- Não é necessário contactar ou vender a ninguém nesta fase.
+
+**Fase 2 — Páginas comerciais (durante HTML, CSS e Web Design)**
+
+- Analisar como os sites apresentam serviços, contactos e propostas de valor.
+- Compreender o papel do design, da experiência de utilização e da adaptação a telemóveis.
+- Relacionar estes conhecimentos com as competências técnicas já estudadas.
+
+**Fase 3 — Portefólio e primeiros testes (quando existir competência suficiente)**
+
+- Criar projetos demonstrativos de qualidade.
+- Preparar um portefólio com exemplos claros do trabalho realizado.
+- Mostrar os projetos a potenciais clientes e recolher opiniões.
+- Testar uma oferta simples e limitada, adequada às competências adquiridas.
+
+**Fase 4 — Aquisição de clientes e trabalho profissional**
+
+Estudar de acordo com as etapas oficiais de Marketing Digital, SEO, Freelance e Negócio Digital:
+
+- Encontrar e abordar potenciais clientes.
+- Compreender necessidades e definir o âmbito dos projetos.
+- Preparar propostas e calcular preços.
+- Gerir expectativas, entregas e manutenção.
+- Desenvolver relações profissionais e oportunidades de rendimento recorrente.
+
+**Fase 5 — Negócio próprio e SaaS**
+
+- Investigar problemas que possam justificar um produto digital.
+- Validar procura antes de investir muito tempo no desenvolvimento.
+- Estudar MVP, proposta de valor, aquisição e retenção de clientes.
+- Avançar para um produto próprio quando existirem competências e evidências suficientes.
+
+### Acompanhamento obrigatório
+
+Esta linha deve ser revista juntamente com o roadmap principal, classificando cada tópico como:
+
+- Concluído
+- Em andamento
+- Pendente
+- Ainda não estudado
+
+A cada revisão semanal, indicar a atividade complementar adequada à etapa técnica atual, sem repetir atividades já dominadas nem criar tarefas desnecessárias.
+
+**Princípio central:** aprender a desenvolver primeiro, observar o mercado progressivamente e começar a testar serviços quando existir capacidade para os entregar com qualidade.
