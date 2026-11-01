@@ -198,6 +198,55 @@ Dependendo da tecnologia:
 
 ---
 
+
+## Camada Transversal — Lógica de Programação e Algoritmos
+
+**Objetivo:** desenvolver a capacidade de analisar problemas, construir soluções lógicas e transformar essas soluções em código, independentemente da linguagem de programação.
+
+Esta camada acompanha o Roadmap Full Stack, sem constituir um curso separado e sem aumentar a carga horária diária prevista.
+
+### Conteúdos progressivos
+
+**Básico**
+- Pensamento computacional.
+- Decomposição de problemas.
+- Sequências lógicas.
+- Condições e repetições.
+- Construção de algoritmos simples.
+- Pseudocódigo e fluxogramas.
+
+**Intermédio**
+- Algoritmos com Arrays e Functions.
+- Pesquisa e filtragem de dados.
+- Contadores e acumuladores.
+- Ordenação básica.
+- Resolução de problemas com várias etapas.
+
+**Avançado**
+- Estruturas de dados.
+- Algoritmos de pesquisa e ordenação.
+- Recursividade.
+- Análise de eficiência e complexidade (Big O).
+- Otimização de soluções.
+
+### Método de aprendizagem
+- Introduzir cada conceito na altura adequada do roadmap.
+- Trabalhar com exercícios práticos e problemas reais.
+- Pedir ao aluno que explique o raciocínio antes de escrever código.
+- Desenvolver autonomia na construção de soluções.
+- Integrar debugging e análise de erros.
+- Avaliar compreensão, construção independente e capacidade de resolução.
+
+### Acompanhamento
+Os professores devem acompanhar esta camada em conjunto com os conteúdos principais, identificando:
+- Conteúdos concluídos.
+- Conteúdos em desenvolvimento.
+- Dificuldades que precisam de reforço.
+- Próximos conceitos a introduzir.
+
+**Regra:** não avançar para conceitos algorítmicos mais complexos sem consolidar os fundamentos necessários. Não repetir desnecessariamente conteúdos já dominados.
+
+
 # 🌐 ETAPA 01 — FUNDAMENTOS DA WEB
 
 Esta etapa vem antes do HTML.
