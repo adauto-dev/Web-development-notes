@@ -201,19 +201,38 @@ Dependendo da tecnologia:
 
 ## Camada Transversal — Lógica de Programação e Algoritmos
 
-**Objetivo:** desenvolver a capacidade de analisar problemas, construir soluções lógicas e transformar essas soluções em código, independentemente da linguagem de programação.
+---
 
-Esta camada acompanha o Roadmap Full Stack, sem constituir um curso separado e sem aumentar a carga horária diária prevista.
+# 🧠 CAMADAS TRANSVERSAIS DE FORMAÇÃO
 
-### Conteúdos progressivos
+Estas camadas acompanham as diferentes etapas do Roadmap Full Stack 2.4. Não constituem cursos separados, não alteram a sequência tecnológica principal e não aumentam a carga horária diária prevista.
+
+## 1. Camada de Aprimoramento Profissional
+- Resolução de problemas.
+- Debugging.
+- Inglês técnico.
+- Acessibilidade.
+- SEO técnico.
+- Performance.
+- Qualidade e organização do código.
+
+## 2. AI + Engenharia de Software
+- Utilização consciente de IA no desenvolvimento.
+- Engenharia de software assistida por IA.
+- Automação e integração de ferramentas.
+- Validação e revisão do código gerado por IA.
+
+## 3. Lógica de Programação e Algoritmos
+
+**Objetivo:** desenvolver o raciocínio lógico, a capacidade de decompor problemas e construir soluções antes de escrever código.
 
 **Básico**
 - Pensamento computacional.
 - Decomposição de problemas.
 - Sequências lógicas.
 - Condições e repetições.
-- Construção de algoritmos simples.
 - Pseudocódigo e fluxogramas.
+- Algoritmos simples.
 
 **Intermédio**
 - Algoritmos com Arrays e Functions.
@@ -229,22 +248,15 @@ Esta camada acompanha o Roadmap Full Stack, sem constituir um curso separado e s
 - Análise de eficiência e complexidade (Big O).
 - Otimização de soluções.
 
-### Método de aprendizagem
-- Introduzir cada conceito na altura adequada do roadmap.
-- Trabalhar com exercícios práticos e problemas reais.
-- Pedir ao aluno que explique o raciocínio antes de escrever código.
-- Desenvolver autonomia na construção de soluções.
-- Integrar debugging e análise de erros.
-- Avaliar compreensão, construção independente e capacidade de resolução.
+**Método:** introduzir os conteúdos progressivamente, integrados nas aulas e projetos, respeitando os conhecimentos necessários e sem criar uma formação paralela.
 
-### Acompanhamento
-Os professores devem acompanhar esta camada em conjunto com os conteúdos principais, identificando:
-- Conteúdos concluídos.
-- Conteúdos em desenvolvimento.
-- Dificuldades que precisam de reforço.
-- Próximos conceitos a introduzir.
+## 4. Validação do Mercado e Preparação para Clientes
+- Observação de necessidades reais do mercado.
+- Identificação de oportunidades de serviços e produtos digitais.
+- Preparação progressiva para trabalhar com clientes.
+- Validação de ideias de projetos e SaaS.
 
-**Regra:** não avançar para conceitos algorítmicos mais complexos sem consolidar os fundamentos necessários. Não repetir desnecessariamente conteúdos já dominados.
+Carga complementar: 15–20 minutos por semana, quando a energia e disponibilidade permitirem.
 
 
 # 🌐 ETAPA 01 — FUNDAMENTOS DA WEB
