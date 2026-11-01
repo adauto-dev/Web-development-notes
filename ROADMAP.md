@@ -2828,6 +2828,46 @@ Desenvolver autonomia para resolver problemas sem depender de copiar código ou 
 
 ---
 
+
+# 🧩 LÓGICA DE PROGRAMAÇÃO E ALGORITMOS
+
+Esta camada será desenvolvida progressivamente ao longo do Roadmap Full Stack 2.4, integrada nas aulas, exercícios e projetos.
+
+**Objetivo:** desenvolver a capacidade de compreender problemas, dividir tarefas em etapas lógicas e construir soluções antes de escrever código.
+
+## Básico
+- Pensamento computacional.
+- Decomposição de problemas.
+- Sequências lógicas.
+- Condições e repetições.
+- Pseudocódigo.
+- Fluxogramas.
+- Algoritmos simples.
+
+## Intermédio
+- Algoritmos com Arrays e Functions.
+- Pesquisa e filtragem de dados.
+- Contadores e acumuladores.
+- Ordenação básica.
+- Resolução de problemas com várias etapas.
+- Combinação de estruturas para resolver problemas.
+
+## Avançado
+- Estruturas de dados.
+- Algoritmos de pesquisa e ordenação.
+- Recursividade.
+- Análise de eficiência e complexidade (Big O).
+- Otimização de soluções.
+
+## Método de aplicação
+- Introduzir os conceitos no momento adequado, sem antecipar conteúdos.
+- Aplicar os algoritmos na linguagem que estiver a ser estudada.
+- Utilizar exercícios e projetos para desenvolver autonomia.
+- Não criar um curso paralelo nem aumentar a carga horária diária.
+- Avaliar a capacidade de compreender e construir soluções, não apenas memorizar código.
+
+
+
 # 🐛 2. DEBUGGING
 
 ### Quando começa:
